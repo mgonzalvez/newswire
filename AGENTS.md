@@ -1,12 +1,12 @@
 # The Wrecking Wire
 
-Daily blog/newswire site for the **Big Blue Wrecking Crew** Yahoo Fantasy team (2026 season). Every day gets a dated post: a quick 3-line briefing (lineup / verify / action) that expands into a full story, plus a live roster view.
+Daily newswire site for Martin's 2026 fantasy ops — three tabs on one page: **Fantasy** (Big Blue Wrecking Crew, Yahoo), **Pick'em** (MetLife Crisis), **Survivor** (MetLife Crisis). Every day gets a dated post: a quick 3-line briefing (lineup / verify / action) that expands into a full story, plus a live roster view.
 
 ## Tech Stack
 
 - **Frontend**: Vanilla HTML, CSS, JavaScript (no frameworks, no build tools, no package.json)
-- **Hosting**: Local only for now (no git repo, no GitHub Pages yet)
-- **Data**: `data/roster.json` + `data/posts.json` (JSON source of truth)
+- **Hosting**: GitHub Pages from `main` → https://mgonzalvez.github.io/newswire/ (repo: `mgonzalvez/newswire`)
+- **Data**: `data/roster.json` + `data/pickem.json` + `data/survivor.json` + `data/posts.json` (derived from the briefing docs — see Source of Truth)
 - **Font**: Space Grotesk from Google Fonts
 - **Design**: Dark "wire service" aesthetic — deep navy, Big Blue accent, Space Grotesk, monospace labels, scrolling ticker
 
@@ -72,6 +72,7 @@ The site is updated by the agent (pi) from a small daily input from Martin. Goal
 | **Sat (lineup day)** | 1. Roster screenshot — Yahoo "Current Week" tab, same framing as `roster 2026-09-17.png` (starters, bench, K, DST, pending transactions visible) · 2. One line: the lineup decision ("no changes" or "start X, bench Y") plus any confirmed facts he has ("Kittle claim cleared") | Screenshot = canonical roster facts. The decision is his call, not the agent's |
 | **Sun (after games)** | 1. Opponent's final score (or a league results screenshot) · 2. Roster screenshot (optional) | The opponent score is the only league data the agent cannot get from web search |
 | **Any day (something breaks)** | Screenshot + one line | Injury, trade, or claim outcome that changes the plan |
+| **Any day (pool)** | Pick'em / Survivor screenshot + one line | Card saved, score, pool distribution, or a lock decision |
 
 Save screenshots to `../fantasy_football_guidance/screenshots/roster YYYY-MM-DD.png`.
 
@@ -79,10 +80,10 @@ Save screenshots to `../fantasy_football_guidance/screenshots/roster YYYY-MM-DD.
 
 1. Save the screenshot, read it, diff against current `data/roster.json`
 2. Web search (FAST READ budget: 3) for volatile items: injuries, practice reports, active/inactive lists, claim outcomes, player stats
-3. Update `data/roster.json` — lineup moves, `status`, `note`, `team.asOf`/`team.source`, `pendingTransactions`
+3. Update the site JSON: `data/roster.json` (lineup moves, `status`, `note`, `team.asOf`/`team.source`, `pendingTransactions`), plus `data/pickem.json` / `data/survivor.json` when pool screenshots arrive
 4. Write the day's post in `data/posts.json` (template below)
 5. Commit + push to `origin/main` (repo: `mgonzalvez/newswire`), one commit per update, message `Week N: <short summary>`
-6. Bake confirmed facts into `../fantasy_football_guidance/docs/big-blue-wrecking-crew-2026.md` so the next FAST READ is faster
+6. Bake confirmed facts into the matching briefing doc(s) in `../fantasy_football_guidance/docs/` (fantasy / pickem / survivor) so the next FAST READ is faster
 
 ### Post template
 
