@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": "2026-09-17-week2-lockin",
+      "date": "2026-09-17",
+      "tag": "Lineup",
+      "title": "Week 2: Starters Hold, Both Q Flags Explained",
+      "quick": [
+        "Lineup: locked starters unchanged — Purdy, Walker, Hubbard, Chase, Collins (Q), Pitts (TE), McMillan (FLEX), Piñeiro (Q), Ravens DST.",
+        "Verify: none — all three open items resolved. Collins Q = hamstring strain, testing says 'not that serious.' Piñeiro Q = illness, missed Wed practice, status TBD. Etienne = co-starter with Kamara, expect a real share drop, stays benched.",
+        "Action: nothing today. Sat 9/19: Kittle claim processes (Waiver 1, auto-drops Pitts) — start Kittle only if NOT limited on Sunday's active list. Sun morning: check Collins + Piñeiro active lists; if Collins is out, Egbuka is the WR2 replacement."
+      ],
+      "full": "## What changed today\n\nBoth questionable flags on the roster now have confirmed reasons, and the Etienne/Kamara question has a clear read. No lineup moves required.\n\n## Injury board\n\n- **Nico Collins (WR, HOU) — Q.** Hamstring strain suffered in Wednesday's practice. Testing says it's \"not that serious\" with no extended recovery expected; he was a limited participant Wednesday. WR1 lock — monitor the Sunday active list. If he's ruled out, **Emeka Egbuka** (TB, 9.78 proj) is the WR2 replacement.\n- **Eddy Piñeiro (K, SF) — Q.** Illness — missed Wednesday's practice, exact nature unclear, has until Sunday to get better. Possible Wk2 inactive. There is **no backup K on the roster** — if he's out, the K slot sits empty. Do not burn waiver priority on a one-week kicker.\n- **George Kittle (TE, SF) — claim pending.** Limited with his Achilles in Wednesday's practice. The claim processes **Saturday 9/19 as Waiver 1** and auto-drops Pitts. Start Kittle only if he is *not limited* on the Sunday active list; otherwise Pitts starts vs Panthers.\n\n## Bench read\n\n- **Travis Etienne (NO):** Saints list him and Kamara as co-starters. Practice reps favor Etienne as the lead back with Kamara mixed in on 3rd down and late series — but his Wk1 workload (86 touches, most in the league) was inflated by Kamara's absence. Expect a real share drop. This is a *role* sit, not a *talent* sit.\n- **Jameson Williams (DET):** plays Thursday night 8:15 pm @ BUF — benched, so no action needed.\n\n## Sunday checklist (before lock)\n\n- Collins + Piñeiro on the HOU/SF active lists?\n- Kittle claim outcome (Saturday) + Kittle's active/limited status\n- Panthers @ Atlanta inactives — confirm Hubbard's role and McMillan's snap share\n- 49ers practice participation — Trent Williams missed Wednesday (reason unknown); a compromised O-line hurts Purdy's floor more than Miami's QB situation does"
+    },
+    {
+      "id": "2026-09-16-hubbard-etienne-kittle",
+      "date": "2026-09-16",
+      "tag": "Transactions",
+      "title": "Hubbard to RB2, Etienne Benched; Kittle Claim Filed",
+      "quick": [
+        "Plan executed: Hubbard moved to RB2 starter, Etienne benched — the stricter-floor move with Kamara back.",
+        "Kittle claim filed: processes Sep 19 as Waiver 1, auto-drops Pitts. Kittle was also claimed by another manager — assume Pitts remains until confirmed.",
+        "Action: none. Monitor Kamara's role and the claim outcome Saturday."
+      ],
+      "full": "## The RB2/FLEX decision\n\nKamara (knee) logged full practice Wednesday — his return creates real usage uncertainty for Etienne at NO. The stricter-floor move wins:\n\n- **RB2 = Chuba Hubbard** — Wk1: 13 touches / 87 scrimmage yards / 2 TDs vs Bears, including Carolina's only score inside the five. Atlanta's D is clean (Falcons allowed the Bears 59 in Wk1). FantasyPros ranks him a viable start vs Falcons.\n- **FLEX = Tetairoa McMillan** — Wk1: 5/7/75 on 8 targets vs Bears. Eight targets is the underlying-usage signal we want to reward; NBC Sports recommends start. Listed as a WR on the Panthers (Car - WR), not an RB — the W/R/T FLEX slot is his correct home.\n- **Benched: Travis Etienne Jr.** — Kamara return + Baltimore D is a real sit week even though Etienne had a solid Wk1 (9 carries / 46 yards / 9 targets). A *role* sit, not a *talent* sit.\n\n## The Kittle claim\n\n- Processes **Sep 19 (Sat) as Waiver 1** with auto-drop of Pitts. Kittle was also claimed by another manager per 9/16 status — assume **Pitts remains until confirmed otherwise**.\n- Even if the claim clears, Kittle was **limited with his Achilles in Wednesday's practice** — start him only if he is *not limited* on the Sunday active list.\n- Waiver priority is **8** (late in a 10-team league): don't burn it on marginal chases, watch the free-drop pool, preserve it for breakouts and injury replacements.\n\n## Do not start\n\nKaelon Black or KC Concepcion in Wk2. Black is a committee bench signal; Concepcion is a deep stash."
+    },
+    {
+      "id": "2026-09-14-week1-postmortem",
+      "date": "2026-09-14",
+      "tag": "Postmortem",
+      "title": "Week 1 Postmortem: 72.64 vs 156.56",
+      "quick": [
+        "Decisive loss to Hi-Diddly-Ho Nabers! (Allen) — 72.64 to 156.56, despite a near-even pre-week projection (109.69 vs 110.78).",
+        "Chase's 2.2 is variance, not signal. Pitts' 0.0 is a role/usage problem (1 target). The Goff stream failed — Purdy re-added and locked.",
+        "Action: none — the diagnostic framework (variance vs role vs structural ceiling) now governs all reactions."
+      ],
+      "full": "## The result\n\n**Big Blue Wrecking Crew 72.64 — Hi-Diddly-Ho Nabers! 156.56.** A decisive loss, but the poor outputs were driven by different causes and should not be treated equally.\n\n## Player-by-player\n\n- **Ja'Marr Chase: 2.2** — variance problem. Good player, healthy role, normal volume, poor result. Treat as weekly variance unless current role/health data says otherwise. HOLD/START.\n- **Kyle Pitts: 0.0** — role/usage problem. Only one target in Wk1. This is not merely bad luck; it can justify benching or waiver action. Pitts is on a short leash.\n- **Jared Goff: 16.44** — adequate but lower ceiling (little rushing). The stream failed; **Purdy re-added and locked** as QB1. Purdy is preferred in this format for accuracy, anticipation, efficiency, mobility, and usable rushing. Do not churn QB on tiny projection differences.\n- **Travis Etienne Jr.: 11.3** — useful workload, but backfield competition (Kamara) must be monitored.\n- **Tetairoa McMillan: 8.0** — eight targets were a better signal than the fantasy score itself.\n- **De'Zhaun Stribling: 6.0** — later dropped for Kaelon Black. (Stribling's ankle/deltoid surgery 9/16 puts him on IR ~10 weeks.)\n\n## The diagnostic framework\n\nBefore reacting to a bad fantasy score, classify it:\n\n1. **Variance problem** — good player, healthy role, normal volume, poor result. Usually HOLD/START. Example: Chase.\n2. **Role/usage problem** — too few routes, targets, carries, snaps, or goal-line opportunities. Can justify benching or waiver action. Example: Pitts in Wk1.\n3. **Structural ceiling problem** — competent player, but the fantasy profile limits upside. Example: a pocket QB with no rushing vs a comparably efficient mobile QB.\n\nReact strongly to #2, selectively to #3, and avoid overreacting to #1."
+    }
+  ]
+}

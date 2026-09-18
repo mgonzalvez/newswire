@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial=1.0">
+  <title>The Wrecking Wire — Big Blue Wrecking Crew Daily</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b1220'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='%233b82f6' font-family='sans-serif' font-weight='bold'%3EBB%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+
+    <header class="masthead">
+      <div class="masthead-left">
+        <div class="live-dot" aria-hidden="true"></div>
+        <div>
+          <h1>THE WRECKING WIRE</h1>
+          <p class="tagline">Daily newswire for the <strong>Big Blue Wrecking Crew</strong> · Yahoo Fantasy</p>
+        </div>
+      </div>
+      <div class="masthead-right">
+        <div class="stat"><span class="stat-label">Season</span><span class="stat-value" id="stat-season">—</span></div>
+        <div class="stat"><span class="stat-label">Week</span><span class="stat-value" id="stat-week">—</span></div>
+        <div class="stat"><span class="stat-label">Waiver</span><span class="stat-value" id="stat-waiver">—</span></div>
+        <div class="stat"><span class="stat-label">Bench</span><span class="stat-value" id="stat-bench">—</span></div>
+      </div>
+    </header>
+
+    <div class="ticker" id="ticker" aria-hidden="true"></div>
+
+    <main>
+      <section class="briefing" id="briefing">
+        <div class="briefing-head">
+          <span class="kicker">TODAY'S BRIEFING</span>
+          <span class="briefing-date" id="briefing-date"></span>
+        </div>
+        <h2 class="briefing-title" id="briefing-title"></h2>
+        <div class="briefing-quick" id="briefing-quick"></div>
+        <button class="expand-btn" id="briefing-expand" aria-expanded="false">Expand full briefing <span class="chev">▾</span></button>
+        <div class="briefing-full" id="briefing-full" hidden></div>
+      </section>
+
+      <section class="roster" id="roster">
+        <div class="section-head">
+          <h2>STARTING LINEUP</h2>
+          <span class="section-sub" id="roster-asof"></span>
+        </div>
+        <div class="pending" id="pending"></div>
+        <div class="starters-grid" id="starters"></div>
+        <div class="specialists" id="specialists"></div>
+        <div class="bench-head">BENCH <span class="bench-count" id="bench-count"></span></div>
+        <div class="bench" id="bench"></div>
+      </section>
+
+      <section class="wire" id="wire">
+        <div class="section-head">
+          <h2>THE WIRE</h2>
+          <span class="section-sub">every day, every decision</span>
+        </div>
+        <div class="feed" id="feed"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Roster data from <span id="footer-source"></span> · Briefings from <a href="../fantasy_football_guidance/docs/big-blue-wrecking-crew-2026.md">the team briefing</a></p>
+      <p>Local site · vanilla HTML/CSS/JS · no build step</p>
+    </footer>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
