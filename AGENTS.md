@@ -119,6 +119,6 @@ Save screenshots to `../fantasy_football_guidance/screenshots/roster YYYY-MM-DD.
 ## Season State (volatile — verify against the briefing docs)
 
 - 2026 season, Week 2 as of 2026-09-18.
-- Fantasy: Egbuka at WR2 (Collins benched, Q/trending out), Bass at K (Piñeiro dropped). Kittle claim pending (Waiver 1, Sep 19, auto-drops Pitts).
+- Fantasy: Egbuka at WR2 (Collins RULED OUT Wk2 per NBC Sports 9/18 — Egbuka is the locked WR2, no swap-back possible unless Collins reactivates later week), Bass at K (Piñeiro dropped). Kittle claim pending (Waiver 1, Sep 19, auto-drops Pitts); Kittle had a dominant Wk1 vs Rams so claim value increased. Purdy ACTIVE. Hubbard = clear lead-back Wk1. Miami QB = Malik Willis (Tua now on Atlanta).
 - Pick'em: Wk2 picks saved 16/16, 1 pt (Buffalo ✓), rank 15/28, 8-9.
 - Survivor: alive; Wk2 pick = SF 49ers (pool #2, 33.07%).
