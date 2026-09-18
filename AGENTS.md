@@ -49,6 +49,52 @@ Edit `data/roster.json`:
 
 Built automatically from: questionable players (starters + specialists), pending transactions, and bench players with a "Thursday night" note. No separate config.
 
+## Daily Update Workflow
+
+The site is updated by the agent (pi) from a small daily input from Martin. Goal: Martin sends two things, the agent does the rest, the site is pushed within minutes.
+
+### What Martin sends
+
+| When | What | Why |
+|------|------|-----|
+| **Sat (lineup day)** | 1. Roster screenshot — Yahoo "Current Week" tab, same framing as `roster 2026-09-17.png` (starters, bench, K, DST, pending transactions visible) · 2. One line: the lineup decision ("no changes" or "start X, bench Y") plus any confirmed facts he has ("Kittle claim cleared") | Screenshot = canonical roster facts. The decision is his call, not the agent's |
+| **Sun (after games)** | 1. Opponent's final score (or a league results screenshot) · 2. Roster screenshot (optional) | The opponent score is the only league data the agent cannot get from web search |
+| **Any day (something breaks)** | Screenshot + one line | Injury, trade, or claim outcome that changes the plan |
+
+Save screenshots to `../fantasy_football_guidance/screenshots/roster YYYY-MM-DD.png`.
+
+### What the agent does (no input needed)
+
+1. Save the screenshot, read it, diff against current `data/roster.json`
+2. Web search (FAST READ budget: 3) for volatile items: injuries, practice reports, active/inactive lists, claim outcomes, player stats
+3. Update `data/roster.json` — lineup moves, `status`, `note`, `team.asOf`/`team.source`, `pendingTransactions`
+4. Write the day's post in `data/posts.json` (template below)
+5. Commit + push to `origin/main` (repo: `mgonzalvez/newswire`), one commit per update, message `Week N: <short summary>`
+6. Bake confirmed facts into `../fantasy_football_guidance/docs/big-blue-wrecking-crew-2026.md` so the next FAST READ is faster
+
+### Post template
+
+- `id`: `YYYY-MM-DD-<slug>` · `date`: `YYYY-MM-DD`
+- `tag`: `Lineup` (Sat) · `Postmortem` (Sun) · `Injury` / `Transactions` (as needed)
+- `quick`: 3 lines starting with `Lineup:` / `Verify:` / `Action:` — these render as labeled chips in the hero
+- `full`: `##` sections — Sat: injury board, bench read, Sunday checklist · Sun: the result, player-by-player, lessons
+
+### Cadence
+
+| Day | Update |
+|-----|--------|
+| Sat | Main update: roster + "Week N: ..." lineup post |
+| Sun | Postmortem post (needs the opponent score) |
+| Thu | Optional: ticker note only, if a benched player plays TNF |
+| Mon–Fri | Only if something breaks — short `Injury` / `Transactions` post |
+
+### Rules
+
+- Screenshot arrives with **no decision**: output a FAST READ with recommendations, wait for confirmation, then push. Never push a lineup post with an unconfirmed change.
+- Screenshot arrives with **"no changes"** and the locks are intact: push immediately, no re-confirmation.
+- Roster facts come from the screenshot, not from search. Position facts come from Yahoo, not inference.
+- If a search fails (oMLX down), tag the item `⚠ verify` in the post and move on — do not block the update.
+
 ## Conventions
 
 - No frameworks or build tools — vanilla JS/CSS/HTML only
