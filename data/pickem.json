@@ -1,0 +1,45 @@
+{
+  "league": "MetLife Crisis · FourthandLong",
+  "entries": 28,
+  "season": 2026,
+  "week": 2,
+  "status": "COMPLETE — 16/16 picks saved",
+  "score": { "weekPoints": 1, "totalPoints": 8, "rank": "15/28", "record": "8-9" },
+  "asOf": "2026-09-18",
+  "source": "Pickem screenshot 2026-09-18",
+  "games": [
+    { "n": 1,  "fav": "Buffalo",        "dog": "Detroit",        "when": "Thu 8:15 pm", "line": -4.5,  "pick": "Buffalo",        "crowd": 70, "result": "Buf 41, Det 31", "correct": true },
+    { "n": 2,  "fav": "Carolina",       "dog": "Atlanta",        "when": "Sun 1:00 pm", "line": -2.5,  "pick": "Carolina",       "crowd": 70 },
+    { "n": 3,  "fav": "Chicago",        "dog": "Minnesota",      "when": "Sun 1:00 pm", "line": -5.5,  "pick": "Chicago",        "crowd": 71 },
+    { "n": 4,  "fav": "Philadelphia",   "dog": "Tennessee",      "when": "Sun 1:00 pm", "line": -7.0,  "pick": "Philadelphia",   "crowd": 87 },
+    { "n": 5,  "fav": "New England",    "dog": "Pittsburgh",     "when": "Sun 1:00 pm", "line": -4.5,  "pick": "New England",    "crowd": 53 },
+    { "n": 6,  "fav": "Green Bay",      "dog": "New York (J)",   "when": "Sun 1:00 pm", "line": -3.5,  "pick": "Green Bay",      "crowd": 70 },
+    { "n": 7,  "fav": "Tampa Bay",      "dog": "Cleveland",      "when": "Sun 1:00 pm", "line": -8.5,  "pick": "Tampa Bay",      "crowd": 80 },
+    { "n": 8,  "fav": "Baltimore",      "dog": "New Orleans",    "when": "Sun 1:00 pm", "line": -8.5,  "pick": "Baltimore",      "crowd": 58 },
+    { "n": 9,  "fav": "Houston",        "dog": "Cincinnati",     "when": "Sun 1:00 pm", "line": -2.5,  "pick": "Houston",        "crowd": 53 },
+    { "n": 10, "fav": "Denver",         "dog": "Jacksonville",   "when": "Sun 4:05 pm", "line": -2.5,  "pick": "Jacksonville",   "crowd": 46, "contrarian": true },
+    { "n": 11, "fav": "Los Angeles (C)","dog": "Las Vegas",      "when": "Sun 4:05 pm", "line": -6.5,  "pick": "Los Angeles (C)","crowd": 52 },
+    { "n": 12, "fav": "Dallas",         "dog": "Washington",     "when": "Sun 4:25 pm", "line": -4.0,  "pick": "Dallas",         "crowd": 61 },
+    { "n": 13, "fav": "Seattle",        "dog": "Arizona",        "when": "Sun 4:25 pm", "line": -4.0,  "pick": "Seattle",        "crowd": 74 },
+    { "n": 14, "fav": "San Francisco",  "dog": "Miami",          "when": "Sun 4:25 pm", "line": -13.5, "pick": "San Francisco",  "crowd": 71 },
+    { "n": 15, "fav": "Kansas City",    "dog": "Indianapolis",   "when": "Sun 8:20 pm", "line": -6.5,  "pick": "Kansas City",    "crowd": 77 },
+    { "n": 16, "fav": "Los Angeles (R)","dog": "New York (G)",   "when": "Mon 8:15 pm", "line": -7.5,  "pick": "New York (G)",   "crowd": 36, "contrarian": true }
+  ],
+  "tiebreakers": {
+    "tb1": {
+      "label": "Predict the scores",
+      "deadline": "Mon Sep 21 8:10 pm EDT (NYG@LAR) · Sun Sep 20 8:20 pm EDT (IND@KC)",
+      "games": [
+        { "away": "New York (G)", "awayScore": 28, "home": "Los Angeles (R)", "homeScore": 20 },
+        { "away": "Indianapolis", "awayScore": 14, "home": "Kansas City",     "homeScore": 27 }
+      ]
+    },
+    "tb2": {
+      "label": "Most / fewest points this week",
+      "deadline": "Thu Sep 17 8:10 pm EDT",
+      "most": "San Francisco",
+      "fewest": "Miami"
+    }
+  },
+  "notes": "14 favorites + 2 contrarian underdogs (Jacksonville, New York G). Buffalo already played Thursday — correct (1 pt). Sunday morning: recheck QB status, inactives, and late line movement on the two contrarian picks before each game's 5-minute deadline."
+}

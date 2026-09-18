@@ -18,7 +18,7 @@
         <div class="live-dot" aria-hidden="true"></div>
         <div>
           <h1>THE WRECKING WIRE</h1>
-          <p class="tagline">Daily newswire for the <strong>Big Blue Wrecking Crew</strong> · Yahoo Fantasy</p>
+          <p class="tagline">Daily newswire for the <strong>Big Blue Wrecking Crew</strong> · Yahoo Fantasy · Pick'em · Survivor</p>
         </div>
       </div>
       <div class="masthead-right">
@@ -31,41 +31,99 @@
 
     <div class="ticker" id="ticker" aria-hidden="true"></div>
 
+    <nav class="tabs" id="tabs" aria-label="Decision areas">
+      <button class="tab active" data-tab="fantasy" aria-selected="true">Fantasy</button>
+      <button class="tab" data-tab="pickem" aria-selected="false">Pick'em</button>
+      <button class="tab" data-tab="survivor" aria-selected="false">Survivor</button>
+    </nav>
+
     <main>
-      <section class="briefing" id="briefing">
-        <div class="briefing-head">
-          <span class="kicker">TODAY'S BRIEFING</span>
-          <span class="briefing-date" id="briefing-date"></span>
-        </div>
-        <h2 class="briefing-title" id="briefing-title"></h2>
-        <div class="briefing-quick" id="briefing-quick"></div>
-        <button class="expand-btn" id="briefing-expand" aria-expanded="false">Expand full briefing <span class="chev">▾</span></button>
-        <div class="briefing-full" id="briefing-full" hidden></div>
-      </section>
+      <!-- ============ FANTASY ============ -->
+      <div class="tab-panel" id="panel-fantasy">
+        <section class="briefing" id="briefing">
+          <div class="briefing-head">
+            <span class="kicker">TODAY'S BRIEFING</span>
+            <span class="briefing-date" id="briefing-date"></span>
+          </div>
+          <h2 class="briefing-title" id="briefing-title"></h2>
+          <div class="briefing-quick" id="briefing-quick"></div>
+          <button class="expand-btn" id="briefing-expand" aria-expanded="false">Expand full briefing <span class="chev">▾</span></button>
+          <div class="briefing-full" id="briefing-full" hidden></div>
+        </section>
 
-      <section class="roster" id="roster">
-        <div class="section-head">
-          <h2>STARTING LINEUP</h2>
-          <span class="section-sub" id="roster-asof"></span>
-        </div>
-        <div class="pending" id="pending"></div>
-        <div class="starters-grid" id="starters"></div>
-        <div class="specialists" id="specialists"></div>
-        <div class="bench-head">BENCH <span class="bench-count" id="bench-count"></span></div>
-        <div class="bench" id="bench"></div>
-      </section>
+        <section class="roster" id="roster">
+          <div class="section-head">
+            <h2>STARTING LINEUP</h2>
+            <span class="section-sub" id="roster-asof"></span>
+          </div>
+          <div class="pending" id="pending"></div>
+          <div class="starters-grid" id="starters"></div>
+          <div class="specialists" id="specialists"></div>
+          <div class="bench-head">BENCH <span class="bench-count" id="bench-count"></span></div>
+          <div class="bench" id="bench"></div>
+        </section>
 
-      <section class="wire" id="wire">
-        <div class="section-head">
-          <h2>THE WIRE</h2>
-          <span class="section-sub">every day, every decision</span>
-        </div>
-        <div class="feed" id="feed"></div>
-      </section>
+        <section class="wire" id="wire">
+          <div class="section-head">
+            <h2>THE WIRE</h2>
+            <span class="section-sub">every day, every decision</span>
+          </div>
+          <div class="feed" id="feed"></div>
+        </section>
+      </div>
+
+      <!-- ============ PICK'EM ============ -->
+      <div class="tab-panel" id="panel-pickem" hidden>
+        <section class="pickem" id="pickem">
+          <div class="section-head">
+            <h2>PICK'EM — <span id="pickem-week"></span></h2>
+            <span class="section-sub" id="pickem-status"></span>
+          </div>
+          <div class="score-strip" id="pickem-score"></div>
+          <div class="pickem-card">
+            <div class="pickem-card-head">
+              <span>GAME</span><span>WHEN</span><span>LINE</span><span>YOUR PICK</span><span>CROWD</span><span>RESULT</span>
+            </div>
+            <div class="pickem-rows" id="pickem-rows"></div>
+          </div>
+          <div class="pickem-tiebreakers" id="pickem-tiebreakers"></div>
+          <div class="pickem-notes" id="pickem-notes"></div>
+        </section>
+      </div>
+
+      <!-- ============ SURVIVOR ============ -->
+      <div class="tab-panel" id="panel-survivor" hidden>
+        <section class="survivor" id="survivor">
+          <div class="section-head">
+            <h2>SURVIVOR — <span id="survivor-week"></span></h2>
+            <span class="section-sub" id="survivor-source"></span>
+          </div>
+          <div class="survivor-status" id="survivor-status"></div>
+          <div class="survivor-pick" id="survivor-pick"></div>
+          <div class="survivor-cols">
+            <div class="survivor-col">
+              <div class="subhead">POOL DISTRIBUTION</div>
+              <div class="pool-dist" id="survivor-pool"></div>
+            </div>
+            <div class="survivor-col">
+              <div class="subhead">TEAM LEDGER</div>
+              <div class="ledger" id="survivor-ledger"></div>
+            </div>
+          </div>
+          <div class="survivor-brief">
+            <div class="subhead">THE CASE</div>
+            <p class="survivor-text" id="survivor-rationale"></p>
+            <div class="subhead">MAIN UPSET PATH</div>
+            <p class="survivor-text" id="survivor-upset"></p>
+            <div class="subhead">VERIFY BEFORE LOCK</div>
+            <ul class="survivor-checklist" id="survivor-verify"></ul>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer>
-      <p>Roster data from <span id="footer-source"></span> · Briefings from <a href="../fantasy_football_guidance/docs/big-blue-wrecking-crew-2026.md">the team briefing</a></p>
+      <p>Roster data from <span id="footer-source"></span> · Briefings from <a href="../fantasy_football_guidance/docs/big-blue-wrecking-crew-2026.md">the team briefing</a> · <a href="../fantasy_football_guidance/docs/nfl-pickem-2026.md">pick'em</a> · <a href="../fantasy_football_guidance/docs/nfl-survivor-2026.md">survivor</a></p>
       <p>Local site · vanilla HTML/CSS/JS · no build step</p>
     </footer>
 

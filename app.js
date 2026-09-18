@@ -180,20 +180,140 @@ function renderFeed(posts) {
   });
 }
 
+/* ---------- Pick'em ---------- */
+
+function renderPickem(d) {
+  $("#pickem-week").textContent = "WEEK " + d.week;
+  $("#pickem-status").textContent = d.status + " · " + d.league + " · " + d.entries + " entries";
+
+  const s = d.score;
+  $("#pickem-score").innerHTML = [
+    ["Week pts", s.weekPoints],
+    ["Total pts", s.totalPoints],
+    ["Rank", s.rank],
+    ["Record", s.record],
+  ].map(([l, v]) => `<div class="stat"><span class="stat-label">${l}</span><span class="stat-value">${v}</span></div>`).join("");
+
+  $("#pickem-rows").innerHTML = d.games.map((g) => {
+    const isPickFav = g.pick === g.fav;
+    const pickCls = g.contrarian ? "pick-badge contrarian" : "pick-badge";
+    const result = g.result
+      ? `<span class="result ${g.correct ? "correct" : "wrong"}">${esc(g.result)} ${g.correct ? "✓" : "✗"}</span>`
+      : `<span class="result pending">—</span>`;
+    return `
+      <div class="pickem-row">
+        <span class="p-num">${g.n}</span>
+        <span class="p-match">${esc(g.fav)} <span class="p-vs">vs</span> ${esc(g.dog)}</span>
+        <span class="p-when">${esc(g.when)}</span>
+        <span class="p-line">${g.line}</span>
+        <span class="${pickCls}">${esc(g.pick)}${g.contrarian ? " ⚡" : ""}</span>
+        <span class="p-crowd">${g.crowd}%</span>
+        ${result}
+      </div>`;
+  }).join("");
+
+  const tb = d.tiebreakers;
+  const tb1 = tb.tb1.games
+    .map((g) => `${esc(g.away)} <b>${g.awayScore}</b> @ ${esc(g.home)} <b>${g.homeScore}</b>`)
+.join(" · ");
+  $("#pickem-tiebreakers").innerHTML = `
+    <div class="tb-block">
+      <div class="subhead">TIEBREAKER 1 — ${esc(tb.tb1.label)}</div>
+      <p class="tb-line">${tb1}</p>
+      <p class="tb-deadline">${esc(tb.tb1.deadline)}</p>
+    </div>
+    <div class="tb-block">
+      <div class="subhead">TIEBREAKER 2 — ${esc(tb.tb2.label)}</div>
+      <p class="tb-line">Most: <b>${esc(tb.tb2.most)}</b> · Fewest: <b>${esc(tb.tb2.fewest)}</b></p>
+      <p class="tb-deadline">${esc(tb.tb2.deadline)}</p>
+    </div>`;
+
+  $("#pickem-notes").innerHTML = `<div class="note-box">${esc(d.notes)}</div>`;
+}
+
+/* ---------- Survivor ---------- */
+
+function renderSurvivor(d) {
+  $("#survivor-week").textContent = "WEEK " + d.week;
+  $("#survivor-source").textContent = d.league + " · " + d.source;
+
+  const st = $("#survivor-status");
+  st.className = "survivor-status " + (d.alive ? "alive" : "out");
+  st.innerHTML = d.alive
+    ? `<span class="survivor-status-dot"></span> ${esc(d.status)}`
+    : `ELIMINATED — ${esc(d.status)}`;
+
+  const p = d.currentPick;
+  $("#survivor-pick").innerHTML = `
+    <div class="sp-label">THIS WEEK'S PICK</div>
+    <div class="sp-team">${esc(p.team)}</div>
+    <div class="sp-meta">vs ${esc(p.opponent)} · ${esc(p.when)} · <span class="sp-line">${p.line}</span>${p.home ? " · home" : " · road"}</div>`;
+
+  const maxPct = Math.max(...d.poolDistribution.map((x) => x.pct));
+  $("#survivor-pool").innerHTML = d.poolDistribution
+    .map((x) => `
+      <div class="pool-row${x.mine ? " mine" : ""}">
+        <span class="pool-rank">${x.rank}</span>
+        <span class="pool-team">${esc(x.team)}${x.mine ? ' <span class="pool-mine">YOU</span>' : ""}</span>
+        <span class="pool-bar"><span class="pool-bar-fill" style="width:${(x.pct / maxPct) * 100}%"></span></span>
+        <span class="pool-pct">${x.pct}%</span>
+      </div>`)
+    .join("");
+
+  $("#survivor-ledger").innerHTML = d.ledger
+    .map((l) => `
+      <div class="ledger-row${l.result === "Survived" ? " survived" : l.result === "Pending" ? " pending" : ""}">
+        <span class="ledger-week">Wk ${l.week}</span>
+        <span class="ledger-team">${esc(l.team)}</span>
+        <span class="ledger-result">${esc(l.result)}</span>
+      </div>`)
+    .join("");
+
+  $("#survivor-rationale").textContent = d.rationale;
+  $("#survivor-upset").textContent = d.upsetPath;
+  $("#survivor-verify").innerHTML = d.verifyBeforeLock.map((v) => `<li>${esc(v)}</li>`).join("");
+}
+
+/* ---------- Tabs ---------- */
+
+function setupTabs() {
+  const tabs = Array.from(document.querySelectorAll(".tab"));
+  const panels = { fantasy: $("#panel-fantasy"), pickem: $("#panel-pickem"), survivor: $("#panel-survivor") };
+  function show(name) {
+    if (!panels[name]) name = "fantasy";
+    tabs.forEach((t) => {
+      const on = t.dataset.tab === name;
+      t.classList.toggle("active", on);
+      t.setAttribute("aria-selected", String(on));
+    });
+    Object.entries(panels).forEach(([k, el]) => { el.hidden = k !== name; });
+    if (history.replaceState) history.replaceState(null, "", "#" + name);
+  }
+  tabs.forEach((t) => t.addEventListener("click", () => show(t.dataset.tab)));
+  const initial = (location.hash || "").replace("#", "");
+  show(panels[initial] ? initial : "fantasy");
+  window.addEventListener("hashchange", () => show((location.hash || "").replace("#", "")));
+}
+
 /* ---------- boot ---------- */
 
 async function boot() {
   try {
-    const [roster, postsData] = await Promise.all([
+    const [roster, postsData, pickem, survivor] = await Promise.all([
       fetch("data/roster.json").then((r) => r.json()),
       fetch("data/posts.json").then((r) => r.json()),
+      fetch("data/pickem.json").then((r) => r.json()),
+      fetch("data/survivor.json").then((r) => r.json()),
     ]);
     const posts = postsData.posts.slice().sort((a, b) => b.date.localeCompare(a.date));
     renderMasthead(roster);
     renderTicker(roster);
     renderBriefing(posts[0]);
     renderRoster(roster);
-    renderFeed(posts);
+    renderFeed(posts.filter((p) => (p.domain || "fantasy") === "fantasy"));
+    renderPickem(pickem);
+    renderSurvivor(survivor);
+    setupTabs();
   } catch (err) {
     document.body.innerHTML =
       '<div style="padding:40px;font-family:monospace;color:#f87171">Failed to load data — open via a local server (e.g. <code>python3 -m http.server</code>) so fetch() works. ' +

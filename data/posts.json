@@ -1,9 +1,23 @@
 {
   "posts": [
     {
+      "id": "2026-09-18-week2-lineup-set",
+      "date": "2026-09-18",
+      "tag": "Lineup",
+      "domain": "fantasy",
+      "title": "Week 2 Lineup Set: Egbuka at WR2, Bass Takes the K",
+      "quick": [
+        "Lineup: Purdy, Walker, Hubbard, Chase, Egbuka (WR2), Pitts (TE), McMillan (FLEX), Bass (K), Ravens DST. Collins benched (Q, hamstring), Etienne benched (Kamara co-starter).",
+        "Verify: Collins trending toward sitting out Wk2 per reports — Egbuka is the right call. Kittle claim still pending, processes Sat 9/19. Miami: Tua out, Willis (toe, full participant) likely starts.",
+        "Action: Sat 9/19 — Kittle claim processes; start Kittle only if NOT limited on Sunday's active list. Sun morning — check Panthers @ Atlanta inactives (Hubbard/McMillan roles) and the SF active list (Trent Williams missed Wed practice)."
+      ],
+      "full": "## What changed today\n\nTwo roster moves, both forced by the injury board:\n\n- **Emeka Egbuka promoted to WR2** (TB vs CLE, 9.78 proj) — Nico Collins benched with his hamstring Q flag. Reports Friday say Collins is \"uncertain\" and \"not heading in the direction of playing\" in Week 2. If he's active Sunday, he's the obvious swap back in.\n- **Tyler Bass added at K** (Buf, 7.90 proj) — Eddy Piñeiro dropped after his illness Q flag. Bass: Wk1 5 FG / 5.0 pts in the 41-31 win over Detroit. No backup K on the roster again — if Bass is out, the slot sits empty.\n\n## Injury board\n\n- **Nico Collins (WR, HOU) — Q, trending out.** ESPN source: \"uncertain for Week 2.\" ClutchPoints: not heading in the direction of playing. Egbuka starts; swap back only if Collins is active and you want the ceiling.\n- **George Kittle (TE, SF) — claim pending, processes Sat 9/19.** Still working back from a torn Achilles; was limited Wednesday. Start Kittle only if he is *not limited* on Sunday's active list; otherwise Pitts starts vs Panthers.\n- **Malik Willis (QB, MIA) — toe injury, full participant.** Tua is out; Willis's dual-threat ability may be limited. Good for Purdy's floor.\n- **Trent Williams (OT, SF) — missed Wednesday practice, reason unknown.** Monitor, don't flag (38-year-old OT prior). A compromised O-line hurts Purdy's floor more than Miami's QB situation does.\n\n## Bench read\n\n- **Travis Etienne (NO):** stays benched — Kamara co-starter, expect a real share drop from Wk1's 86 touches.\n- **Jameson Williams (DET):** played Thursday — 4.30 pts in the 31-41 loss at Buffalo.\n- **Kaelon Black (SF):** Q-flagged on Yahoo; committee bench signal only.\n\n## Sunday checklist (before lock)\n\n- Kittle claim outcome (Saturday) + Kittle's active/limited status\n- Collins active status — if active, swap back in for Egbuka\n- Panthers @ Atlanta inactives — confirm Hubbard's role and McMillan's snap share\n- SF active list — Trent Williams, Kittle (if claimed)"
+    },
+    {
       "id": "2026-09-17-week2-lockin",
       "date": "2026-09-17",
       "tag": "Lineup",
+      "domain": "fantasy",
       "title": "Week 2: Starters Hold, Both Q Flags Explained",
       "quick": [
         "Lineup: locked starters unchanged — Purdy, Walker, Hubbard, Chase, Collins (Q), Pitts (TE), McMillan (FLEX), Piñeiro (Q), Ravens DST.",
@@ -16,6 +30,7 @@
       "id": "2026-09-16-hubbard-etienne-kittle",
       "date": "2026-09-16",
       "tag": "Transactions",
+      "domain": "fantasy",
       "title": "Hubbard to RB2, Etienne Benched; Kittle Claim Filed",
       "quick": [
         "Plan executed: Hubbard moved to RB2 starter, Etienne benched — the stricter-floor move with Kamara back.",
@@ -28,6 +43,7 @@
       "id": "2026-09-14-week1-postmortem",
       "date": "2026-09-14",
       "tag": "Postmortem",
+      "domain": "fantasy",
       "title": "Week 1 Postmortem: 72.64 vs 156.56",
       "quick": [
         "Decisive loss to Hi-Diddly-Ho Nabers! (Allen) — 72.64 to 156.56, despite a near-even pre-week projection (109.69 vs 110.78).",

@@ -14,11 +14,13 @@ Daily blog/newswire site for the **Big Blue Wrecking Crew** Yahoo Fantasy team (
 
 | File | Purpose |
 |------|---------|
-| `index.html` | Single page: masthead, ticker, today's briefing, roster, wire feed |
+| `index.html` | Single page: masthead, ticker, 3 tabs (Fantasy / Pick'em / Survivor), footer |
 | `styles.css` | Dark theme, CSS custom properties, responsive layout |
-| `app.js` | Fetches JSON, renders everything, expand/collapse logic, tiny markdown renderer |
-| `data/roster.json` | Team meta, pending transactions, starters, specialists (K/DST), bench |
-| `data/posts.json` | Wire feed posts (newest first when rendered) |
+| `app.js` | Fetches JSON, renders all 3 tabs, tab switching (hash-routed), tiny markdown renderer |
+| `data/roster.json` | Fantasy: team meta, pending transactions, starters, specialists (K/DST), bench |
+| `data/pickem.json` | Pick'em: score, 16 games (fav/dog/line/pick/crowd/result), tiebreakers, notes |
+| `data/survivor.json` | Survivor: status, current pick, pool distribution, ledger, rationale, verify list |
+| `data/posts.json` | Wire feed posts; each has a `domain` tag (fantasy/pickem/survivor) |
 
 ## Running Locally
 
@@ -29,6 +31,16 @@ cd fantasy_wire
 python3 -m http.server 8080
 # Open http://127.0.0.1:8080
 ```
+
+## Source of Truth (one-way sync)
+
+The **briefing docs** in `../fantasy_football_guidance/docs/` are canonical. The site's JSON is a derived, user-facing projection. Update order every time:
+
+1. Briefing docs first (bake in confirmed facts + volatile web-search data)
+2. Project into the site's `data/*.json`
+3. Commit + push to `origin/main`
+
+Never edit site JSON without the matching briefing-doc update. The site can't read the `.md` files at runtime (separate repo) — the agent maintains the sync.
 
 ## Updating the Site
 
@@ -105,6 +117,7 @@ Save screenshots to `../fantasy_football_guidance/screenshots/roster YYYY-MM-DD.
 
 ## Season State (volatile — verify against the briefing docs)
 
-- 2026 season, Week 2 as of 2026-09-17.
-- Kittle claim pending (Waiver 1, Sep 19, auto-drops Pitts).
-- Collins Q (hamstring, "not that serious"), Piñeiro Q (illness).
+- 2026 season, Week 2 as of 2026-09-18.
+- Fantasy: Egbuka at WR2 (Collins benched, Q/trending out), Bass at K (Piñeiro dropped). Kittle claim pending (Waiver 1, Sep 19, auto-drops Pitts).
+- Pick'em: Wk2 picks saved 16/16, 1 pt (Buffalo ✓), rank 15/28, 8-9.
+- Survivor: alive; Wk2 pick = SF 49ers (pool #2, 33.07%).

@@ -1,0 +1,42 @@
+{
+  "league": "MetLife Crisis · FourthandLong",
+  "season": 2026,
+  "week": 2,
+  "status": "Active — still alive",
+  "alive": true,
+  "asOf": "2026-09-18",
+  "source": "Survivor screenshot 2026-09-18",
+  "currentPick": {
+    "team": "San Francisco 49ers",
+    "opponent": "Miami Dolphins",
+    "when": "Sun 1:25 pm",
+    "line": -13.5,
+    "home": false
+  },
+  "poolDistribution": [
+    { "rank": 1,  "team": "Tampa Bay",       "abbr": "TB",  "pct": 33.41 },
+    { "rank": 2,  "team": "San Francisco",   "abbr": "SF",  "pct": 33.07, "mine": true },
+    { "rank": 3,  "team": "Philadelphia",    "abbr": "PHI", "pct": 13.64 },
+    { "rank": 4,  "team": "Baltimore",       "abbr": "BAL", "pct": 5.5 },
+    { "rank": 5,  "team": "Green Bay",       "abbr": "GB",  "pct": 2.3 },
+    { "rank": 6,  "team": "Los Angeles (C)", "abbr": "LAC", "pct": 1.84 },
+    { "rank": 7,  "team": "Kansas City",     "abbr": "KC",  "pct": 1.74 },
+    { "rank": 8,  "team": "Carolina",        "abbr": "CAR", "pct": 1.74 },
+    { "rank": 9,  "team": "Chicago",         "abbr": "CHI", "pct": 1.37 },
+    { "rank": 10, "team": "Buffalo",         "abbr": "BUF", "pct": 1.11 }
+  ],
+  "ledger": [
+    { "week": 1, "team": "Jacksonville Jaguars", "result": "Survived" },
+    { "week": 2, "team": "San Francisco 49ers",  "result": "Pending" }
+  ],
+  "rationale": "SF looked strong in its Week 1 win over the Rams; Miami looked weak in Week 1. The matchup is favorable on paper and SF is a heavy home favorite (-13.5). SF is the #2 most-picked team in the pool (33.07%), essentially tied with Tampa Bay (33.41%) — popularity here reflects a genuinely strong matchup, not just public clustering.",
+  "upsetPath": "Miami's passing attack is the main threat — a hot Dolphins QB and SF's secondary giving up big plays is the realistic upset path. Also watch SF offensive-line health and any late QB/injury news. No NFL matchup is a lock.",
+  "verifyBeforeLock": [
+    "Brock Purdy health / starting status",
+    "SF offensive-line injuries (Trent Williams missed Wed practice)",
+    "Christian McCaffrey + top skill-position availability",
+    "Miami starting QB (Tua out — Willis, toe injury, full participant) + key offensive injuries",
+    "Current spread / moneyline + any line movement",
+    "Weather (SF is indoor — low risk)"
+  ]
+}

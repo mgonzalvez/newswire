@@ -6,31 +6,31 @@
     "week": 2,
     "waiverPriority": 8,
     "bench": "6/6 full",
-    "asOf": "2026-09-17",
-    "source": "roster screenshot 2026-09-17"
+    "asOf": "2026-09-18",
+    "source": "roster screenshot 2026-09-18"
   },
   "pendingTransactions": [
     "Waiver 1 (Sep 19): Add George Kittle, Drop Kyle Pitts Sr. — processes Saturday; Pitts auto-drops if it clears"
   ],
   "starters": [
-    { "pos": "QB", "name": "Brock Purdy", "team": "SF", "game": "Sun 4:25 pm vs Mia", "bye": 8, "proj": 20.31, "pctStart": 50, "pctRos": 93, "status": "active" },
-    { "pos": "RB", "name": "Kenneth Walker", "team": "KC", "game": "Sun 8:20 pm vs Ind", "bye": 5, "proj": 15.66, "pctStart": 99, "pctRos": 100, "status": "active" },
-    { "pos": "RB", "name": "Chuba Hubbard", "team": "Car", "game": "Sun 1:00 pm @ Atl", "bye": 5, "proj": 11.30, "pctStart": 48, "pctRos": 92, "status": "active" },
-    { "pos": "WR", "name": "Ja'Marr Chase", "team": "Cin", "game": "Sun 1:00 pm @ Hou", "bye": 6, "proj": 15.53, "pctStart": 98, "pctRos": 100, "status": "active" },
-    { "pos": "WR", "name": "Nico Collins", "team": "Hou", "game": "Sun 1:00 pm vs Cin", "bye": 8, "proj": 15.02, "pctStart": 93, "pctRos": 100, "status": "questionable", "note": "Hamstring strain — testing says 'not that serious'" },
-    { "pos": "TE", "name": "Kyle Pitts Sr.", "team": "Atl", "game": "Sun 1:00 pm vs Car", "bye": 11, "proj": 8.31, "pctStart": 61, "pctRos": 94, "status": "active", "note": "Auto-drops if Kittle claim clears" },
-    { "pos": "FLEX", "name": "Tetairoa McMillan", "team": "Car", "game": "Sun 1:00 pm @ Atl", "bye": 5, "proj": 11.24, "pctStart": 86, "pctRos": 99, "status": "active", "note": "Listed as WR on Yahoo" }
+    { "pos": "QB", "name": "Brock Purdy", "team": "SF", "game": "Sun 4:25 pm vs Mia", "bye": 8, "proj": 20.41, "pctStart": 53, "pctRos": 94, "status": "active" },
+    { "pos": "RB", "name": "Kenneth Walker", "team": "KC", "game": "Sun 8:20 pm vs Ind", "bye": 5, "proj": 15.82, "pctStart": 99, "pctRos": 100, "status": "active" },
+    { "pos": "RB", "name": "Chuba Hubbard", "team": "Car", "game": "Sun 1:00 pm @ Atl", "bye": 5, "proj": 11.41, "pctStart": 51, "pctRos": 92, "status": "active" },
+    { "pos": "WR", "name": "Ja'Marr Chase", "team": "Cin", "game": "Sun 1:00 pm @ Hou", "bye": 6, "proj": 15.54, "pctStart": 98, "pctRos": 100, "status": "active" },
+    { "pos": "WR", "name": "Emeka Egbuka", "team": "TB", "game": "Sun 1:00 pm vs Cle", "bye": 10, "proj": 9.78, "pctStart": 78, "pctRos": 98, "status": "active", "note": "Promoted to WR2 — Collins benched (Q, hamstring)" },
+    { "pos": "TE", "name": "Kyle Pitts Sr.", "team": "Atl", "game": "Sun 1:00 pm vs Car", "bye": 11, "proj": 8.06, "pctStart": 59, "pctRos": 94, "status": "active", "note": "Auto-drops if Kittle claim clears" },
+    { "pos": "FLEX", "name": "Tetairoa McMillan", "team": "Car", "game": "Sun 1:00 pm @ Atl", "bye": 5, "proj": 11.35, "pctStart": 86, "pctRos": 99, "status": "active", "note": "Listed as WR on Yahoo" }
   ],
   "specialists": [
-    { "pos": "K", "name": "Eddy Piñeiro", "team": "SF", "game": "Sun 4:25 pm vs Mia", "bye": 8, "proj": 8.22, "pctStart": 61, "pctRos": 63, "status": "questionable", "note": "Illness — missed Wed practice, status TBD" },
-    { "pos": "DST", "name": "Baltimore Ravens", "team": "BAL", "game": "Sun 1:00 pm vs NO", "bye": null, "proj": null, "pctStart": null, "pctRos": null, "status": "active", "note": "#3 Wk2 DST matchup (10.1 proj) — hold" }
+    { "pos": "K", "name": "Tyler Bass", "team": "Buf", "game": "Final W 41-31 vs Det", "bye": 7, "proj": 7.90, "pctStart": 17, "pctRos": 18, "status": "active", "note": "Added Fri — Wk1: 5 FG / 5.0 pts; replaces Piñeiro (dropped, illness)" },
+    { "pos": "DST", "name": "Baltimore Ravens", "team": "BAL", "game": "Sun 1:00 pm vs NO", "bye": null, "proj": 7.50, "pctStart": 71, "pctRos": 77, "status": "active", "note": "#3 Wk2 DST matchup — hold" }
   ],
   "bench": [
-    { "pos": "RB", "name": "Travis Etienne Jr.", "team": "NO", "game": "Sun 1:00 pm @ Bal", "bye": 8, "proj": 9.65, "pctStart": 80, "pctRos": 98, "note": "Co-starter with Kamara — share drop expected" },
-    { "pos": "RB", "name": "Jeremiyah Love", "team": "Ari", "game": "Sun 4:25 pm vs Sea", "bye": 14, "proj": 10.39, "pctStart": 77, "pctRos": 99 },
-    { "pos": "WR", "name": "Emeka Egbuka", "team": "TB", "game": "Sun 1:00 pm vs Cle", "bye": 10, "proj": 9.78, "pctStart": 78, "pctRos": 98, "note": "Collins replacement if ruled out" },
-    { "pos": "WR", "name": "Jameson Williams", "team": "Det", "game": "Thu 8:15 pm @ Buf", "bye": 6, "proj": 10.33, "pctStart": 65, "pctRos": 97, "note": "Plays Thursday night — benched, no action" },
-    { "pos": "WR", "name": "KC Concepcion Jr.", "team": "Cle", "game": "Sun 1:00 pm @ TB", "bye": 11, "proj": 7.81, "pctStart": 6, "pctRos": 70 },
-    { "pos": "RB", "name": "Kaelon Black", "team": "SF", "game": "Sun 4:25 pm vs Mia", "bye": 8, "proj": 5.94, "pctStart": 3, "pctRos": 55 }
+    { "pos": "WR", "name": "Nico Collins", "team": "Hou", "game": "Sun 1:00 pm vs Cin", "bye": 8, "proj": 13.57, "pctStart": 88, "pctRos": 100, "note": "Q — hamstring; reports say trending toward sitting out Wk2" },
+    { "pos": "RB", "name": "Travis Etienne Jr.", "team": "NO", "game": "Sun 1:00 pm @ Bal", "bye": 8, "proj": 9.64, "pctStart": 78, "pctRos": 98, "note": "Co-starter with Kamara — share drop expected" },
+    { "pos": "RB", "name": "Jeremiyah Love", "team": "Ari", "game": "Sun 4:25 pm vs Sea", "bye": 14, "proj": 10.38, "pctStart": 77, "pctRos": 99 },
+    { "pos": "WR", "name": "Jameson Williams", "team": "Det", "game": "Final L 31-41 @ Buf (Thu)", "bye": 6, "proj": 10.33, "pctStart": 66, "pctRos": 96, "note": "Played Thursday — 4.30 pts" },
+    { "pos": "WR", "name": "KC Concepcion Jr.", "team": "Cle", "game": "Sun 1:00 pm @ TB", "bye": 11, "proj": 7.80, "pctStart": 7, "pctRos": 70 },
+    { "pos": "RB", "name": "Kaelon Black", "team": "SF", "game": "Sun 4:25 pm vs Mia", "bye": 8, "proj": 5.98, "pctStart": 3, "pctRos": 55, "note": "Q-flagged on Yahoo — committee bench signal only" }
   ]
 }
