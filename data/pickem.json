@@ -5,8 +5,8 @@
   "week": 2,
   "status": "COMPLETE — 16/16 picks saved",
   "score": { "weekPoints": 1, "totalPoints": 8, "rank": "15/28", "record": "8-9" },
-  "asOf": "2026-09-18",
-  "source": "Pickem screenshot 2026-09-18",
+  "asOf": "2026-09-19",
+  "source": "Pickem screenshot 2026-09-18 + web search refresh 2026-09-19",
   "games": [
     { "n": 1,  "fav": "Buffalo",        "dog": "Detroit",        "when": "Thu 8:15 pm", "line": -4.5,  "pick": "Buffalo",        "crowd": 70, "result": "Buf 41, Det 31", "correct": true },
     { "n": 2,  "fav": "Carolina",       "dog": "Atlanta",        "when": "Sun 1:00 pm", "line": -2.5,  "pick": "Carolina",       "crowd": 70 },
@@ -41,5 +41,5 @@
       "fewest": "Miami"
     }
   },
-  "notes": "14 favorites + 2 contrarian underdogs (Jacksonville, New York G). Buffalo already played Thursday — correct (1 pt). Sunday morning: recheck QB status, inactives, and late line movement on the two contrarian picks before each game's 5-minute deadline."
+  "notes": "14 favorites + 2 contrarian underdogs (Jacksonville, New York G). Buffalo already played Thursday — correct (1 pt). Sat 9/19 refresh: #9 Houston RISK — Nico Collins (HOU WR1) OUT hamstring; #13 Seattle SUPPORTED — Kyler Murray (ARI) OUT concussion; #11 LAC supported — Brock Bowers (LV) doubtful knee; #14 SF holding -13.5 (total 45.5), Willis playing, MIA's Chop Robinson doubtful. Sunday morning: recheck inactives, QBs, weather, late line movement before each game's 5-minute deadline."
 }

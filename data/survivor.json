@@ -4,8 +4,8 @@
   "week": 2,
   "status": "Active — still alive",
   "alive": true,
-  "asOf": "2026-09-18",
-  "source": "Survivor screenshot 2026-09-18",
+  "asOf": "2026-09-19",
+  "source": "Survivor screenshot 2026-09-18 + web search refresh 2026-09-19",
   "currentPick": {
     "team": "San Francisco 49ers",
     "opponent": "Miami Dolphins",
@@ -29,14 +29,14 @@
     { "week": 1, "team": "Jacksonville Jaguars", "result": "Survived" },
     { "week": 2, "team": "San Francisco 49ers",  "result": "Pending" }
   ],
-  "rationale": "SF looked strong in its Week 1 win over the Rams; Miami looked weak in Week 1. The matchup is favorable on paper and SF is a heavy home favorite (-13.5). SF is the #2 most-picked team in the pool (33.07%), essentially tied with Tampa Bay (33.41%) — popularity here reflects a genuinely strong matchup, not just public clustering.",
-  "upsetPath": "Miami's passing attack is the main threat — a hot Dolphins QB and SF's secondary giving up big plays is the realistic upset path. Also watch SF offensive-line health and any late QB/injury news. No NFL matchup is a lock.",
+  "rationale": "SF looked strong in its Week 1 win over the Rams; Miami looked weak in Week 1. The matchup is favorable on paper and SF is a heavy favorite (-13.5). SF is the #2 most-picked team in the pool (33.07%), essentially tied with Tampa Bay (33.41%) — popularity here reflects a genuinely strong matchup, not just public clustering. Sat 9/19 refresh: line holding at -13.5 / 45.5, no movement; MIA's top edge (Chop Robinson) doubtful — SF safety reinforced.",
+  "upsetPath": "MIA's passing attack is the main threat — a hot Dolphins QB and SF's secondary giving up big plays is the realistic upset path. Sat 9/19: MIA's top edge Chop Robinson is DOUBTFUL (concussion) and Willis is dealing with a toe, while SF's O-line (Trent Williams) and RB1 (McCaffrey) were full participants Thursday. SF's Bosa is limited (knee). No NFL matchup is a lock.",
   "verifyBeforeLock": [
-    "Brock Purdy health / starting status",
-    "SF offensive-line injuries (Trent Williams missed Wed practice)",
-    "Christian McCaffrey + top skill-position availability",
-    "Miami starting QB (Tua out — Willis, toe injury, full participant) + key offensive injuries",
-    "Current spread / moneyline + any line movement",
+    "Brock Purdy health / starting status — RESOLVED: active (spoke to media after Wed practice)",
+    "SF offensive-line injuries — RESOLVED: Trent Williams + McCaffrey full participants Thu",
+    "SF injury board: Bosa limited (knee), Kittle limited (Achilles — practice management), Piñeiro out (illness), Kaelon Black limited (groin)",
+    "Miami: Willis (toe) full participant, will play; Chop Robinson (top edge) DOUBTFUL — concussion; Ronnie Harrison out — hamstring",
+    "Line: SF -13.5, total 45.5 (Thu night 9/18) — no movement",
     "Weather (SF is indoor — low risk)"
   ]
 }
