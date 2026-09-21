@@ -23,7 +23,9 @@
       "line": -7.0,
       "crowd": 83,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Green Bay -7.0",
+      "reason": "Bad team at a worse one: a 7-point road ask at an Atlanta that allowed 34 in Week 2; the better roster takes the number in the TNF spot."
     },
     {
       "n": 2,
@@ -33,7 +35,9 @@
       "line": -7.0,
       "crowd": 84,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Buffalo -7.0",
+      "reason": "A 41-point week at home against a 0-2 Chargers team; the market is right and the margin has room to breathe."
     },
     {
       "n": 3,
@@ -43,7 +47,9 @@
       "line": -3.0,
       "crowd": 60,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Cleveland +3.0",
+      "reason": "The Week 2 bloodbath card is the warning: Carolina's 3-point home number after a 34-3 rout is exactly the trap the league punishes; CLE won in Week 2."
     },
     {
       "n": 4,
@@ -53,7 +59,9 @@
       "line": -6.5,
       "crowd": 78,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Detroit -6.5",
+      "reason": "Detroit at home against a Jets team that allowed 17 in Week 2; a 6.5-point number on a weak passing attack is fair price."
     },
     {
       "n": 5,
@@ -63,7 +71,9 @@
       "line": -2.5,
       "crowd": 43,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Indianapolis +2.5",
+      "reason": "Houston dropped by 14 in Week 2 and its WR1 is out; the short road leash is the value side."
     },
     {
       "n": 6,
@@ -73,7 +83,9 @@
       "line": -10.5,
       "crowd": 74,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Miami +10.5",
+      "reason": "The Chiefs won by 3 last week — a 10.5-point margin is the league's biggest ask, and the 0-2 Dolphins scored 13. The dog covers even if it loses."
     },
     {
       "n": 7,
@@ -83,7 +95,9 @@
       "line": -6.0,
       "crowd": 78,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Tennessee +6.0",
+      "reason": "The Giants are missing both cornerbacks, and a 6-point road number against a Titans team that scored 20 at Philadelphia is a fair leash."
     },
     {
       "n": 8,
@@ -93,7 +107,9 @@
       "line": -3.5,
       "crowd": 55,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Cincinnati -3.5",
+      "reason": "Cincy won 20-6 in Week 2; a 3.5-point home number against a Steelers offense that scored 3."
     },
     {
       "n": 9,
@@ -103,7 +119,9 @@
       "line": -6.5,
       "crowd": 68,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Washington +6.5",
+      "reason": "Seattle's 31-7 win came against a broken offense; a 6.5-point home ask at a team that allowed 37 is a live dog leash."
     },
     {
       "n": 10,
@@ -113,7 +131,9 @@
       "line": -2.5,
       "crowd": 60,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Jacksonville -2.5",
+      "reason": "A 2.5-point road number against a New England team that has won its last two games by 17 — the small favorite with a proven margin."
     },
     {
       "n": 11,
@@ -123,7 +143,9 @@
       "line": -8.5,
       "crowd": 83,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "San Francisco -8.5",
+      "reason": "The 49ers just won 35-13 with a healthy O-line, and the Cardinals scored 7 in Week 2; the best offense takes the number from the worst one."
     },
     {
       "n": 12,
@@ -133,7 +155,9 @@
       "line": -2.5,
       "crowd": 47,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Tampa Bay +2.5",
+      "reason": "Both teams won by 4 and 2 in Week 2 — at a 2.5-point home number for a Minnesota that allowed 20, the road dog is the value."
     },
     {
       "n": 13,
@@ -143,7 +167,9 @@
       "line": -3.0,
       "crowd": 49,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Dallas +3.0",
+      "reason": "Baltimore scored 17 and lost in Week 2; a Cowboys team that just outscored Washington 37-20 at a 3-point home leash takes the dog."
     },
     {
       "n": 14,
@@ -153,7 +179,9 @@
       "line": -3.5,
       "crowd": 67,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "New Orleans -3.5",
+      "reason": "New Orleans is 1-1 at home with a 24-point Week 2; a 3.5-point number on a healthy run game is the favorite that earns it."
     },
     {
       "n": 15,
@@ -163,7 +191,9 @@
       "line": -2.5,
       "crowd": 42,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Denver +2.5",
+      "reason": "The Rams are 0-2 and may be without Puka Nacua (GTD per Martin) — a 2.5-point home number for a damaged passing attack is the dog."
     },
     {
       "n": 16,
@@ -173,7 +203,9 @@
       "line": -4.0,
       "crowd": 55,
       "pick": null,
-      "contrarian": false
+      "contrarian": false,
+      "rec": "Chicago +4.0",
+      "reason": "Philadelphia fails -7.0 in Week 2, wins by 4, and gets -4.0 the next week; the 4-point leash for a 1-1 Eagles team is the fade."
     }
   ],
   "tiebreakers": {
@@ -204,27 +236,5 @@
       "note": "Early read: MOST = Miami (vs KC, big total, KC allowed 30 Wk2) or Kansas City; FEWEST = Atlanta or Washington (two weak offenses, both allowed 34 / 37 Wk2) — ⚠ verify"
     }
   },
-  "recommendedCard": {
-    "note": "Agent recommendation 2026-09-21 — balance the card after the Wk2 dog-cover bloodbath (9 of 15). Not Martin's picks until he saves them.",
-    "picks": {
-      "1": "Green Bay -7.0",
-      "2": "Buffalo -7.0",
-      "3": "Cleveland +3.0",
-      "4": "Detroit -6.5",
-      "5": "Indianapolis +2.5",
-      "6": "Miami +10.5",
-      "7": "Tennessee +6.0",
-      "8": "Cincinnati -3.5",
-      "9": "Washington +6.5",
-      "10": "Jacksonville -2.5",
-      "11": "San Francisco -8.5",
-      "12": "Tampa Bay +2.5",
-      "13": "Dallas +3.0",
-      "14": "New Orleans -3.5",
-      "15": "Denver +2.5",
-      "16": "Chicago +4.0"
-    },
-    "shape": "9 favorites + 7 dogs (Wk2 was 14 + 2). Deep favorites (KC -10.5, BUF -7.0, GB -7.0) kept only where the margin story is strong."
-  },
-  "notes": "Wk2 final: 6/16 picks, 6 pts, 25/28 — PHI won 24-20 but failed -7.0 (ATS), 9 of 15 played games went to the dog. Wk3 MNF: NYG@LAR moved to a PHI@CHI Monday game instead; LAR hosts DEN Sunday. Weather icons on Yahoo for IND, LV, NYJ games — ⚠ verify forecasts before lock."
+  "notes": "Wk2 final: 6/16 picks, 6 pts, 25/28 — PHI won 24-20 but failed -7.0 (ATS), 9 of 15 played games went to the dog. Wk3 MNF: NYG@LAR moved to a PHI@CHI Monday game instead; LAR hosts DEN Sunday. Weather icons on Yahoo for IND, LV, NYJ games — ⚠ verify forecasts before lock. | Wk3 card shape: 9 favorites + 7 dogs (Wk2 was 14 + 2). Lines are Monday openers — recheck before each game's 5-minute deadline."
 }

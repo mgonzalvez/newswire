@@ -103,11 +103,10 @@ function renderMasthead(roster) {
   $("#stat-bench").textContent = t.bench;
 }
 
-function renderBriefing(post) {
-  $("#briefing-date").textContent = fmtDate(post.date);
-  $("#briefing-title").textContent = post.title;
+function renderTabBriefing(container, post) {
+  if (!post) { container.innerHTML = ""; return; }
   const labels = ["LINEUP", "VERIFY", "ACTION"];
-  $("#briefing-quick").innerHTML = post.quick
+  const quick = post.quick
     .map((line, i) => {
       const m = line.match(/^([A-Za-z ]+):(.*)$/);
       const label = m ? m[1].toUpperCase() : labels[i] || "NOTE";
@@ -116,10 +115,19 @@ function renderBriefing(post) {
       return `<div class="quick-line ${cls}"><span class="quick-label">${esc(label)}</span><span>${esc(body)}</span></div>`;
     })
     .join("");
-  $("#briefing-full").innerHTML = `<div class="md">${renderMarkdown(post.full)}</div>`;
-
-  const btn = $("#briefing-expand");
-  const panel = $("#briefing-full");
+  container.innerHTML = `
+    <section class="briefing">
+      <div class="briefing-head">
+        <span class="kicker">TODAY'S BRIEFING</span>
+        <span class="briefing-date">${fmtDate(post.date)}</span>
+      </div>
+      <h2 class="briefing-title">${esc(post.title)}</h2>
+      <div class="briefing-quick">${quick}</div>
+      <button class="expand-btn" aria-expanded="false">Expand full briefing <span class="chev">▾</span></button>
+      <div class="briefing-full md" hidden>${renderMarkdown(post.full)}</div>
+    </section>`;
+  const btn = container.querySelector(".expand-btn");
+  const panel = container.querySelector(".briefing-full");
   btn.addEventListener("click", () => {
     const open = btn.getAttribute("aria-expanded") === "true";
     btn.setAttribute("aria-expanded", String(!open));
@@ -185,6 +193,23 @@ function renderFeed(posts) {
 function renderPickem(d) {
   $("#pickem-week").textContent = "WEEK " + d.week;
   $("#pickem-status").textContent = d.status + " · " + d.league + " · " + d.entries + " entries";
+
+  // Suggested picks (agent) — top of the tab, with brief reasons
+  const sugg = (d.games || []).filter((g) => g.rec != null);
+  $("#pickem-suggestions").innerHTML = sugg.length
+    ? `
+    <div class="subhead">SUGGESTED PICKS <span class="sugg-sub">— agent read, not saved picks · ${esc(d.linesNote || "")}</span></div>
+    <div class="sugg-list">
+      ${sugg.map((g) => `
+        <div class="sugg-row">
+          <span class="sugg-num">${g.n}</span>
+          <span class="sugg-match">${esc(g.fav)} <span class="p-vs">vs</span> ${esc(g.dog)}</span>
+          <span class="sugg-line">${g.line}</span>
+          <span class="sugg-rec">${esc(g.rec)}</span>
+          <span class="sugg-reason">${esc(g.reason)}</span>
+        </div>`).join("")}
+    </div>`
+    : "";
 
   const s = d.score;
   $("#pickem-score").innerHTML = [
@@ -313,9 +338,12 @@ async function boot() {
     const posts = postsData.posts.slice().sort((a, b) => b.date.localeCompare(a.date));
     renderMasthead(roster);
     renderTicker(roster);
-    renderBriefing(posts[0]);
+    ["fantasy", "pickem", "survivor"].forEach((dom) => {
+      const el = $("#briefing-" + dom);
+      if (el) renderTabBriefing(el, posts.find((p) => (p.domain || "fantasy") === dom));
+    });
     renderRoster(roster);
-    renderFeed(posts.filter((p) => (p.domain || "fantasy") === "fantasy"));
+    renderFeed(posts);
     renderPickem(pickem);
     renderSurvivor(survivor);
     setupTabs();

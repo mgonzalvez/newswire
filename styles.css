@@ -844,3 +844,21 @@ footer {
   .pool-row { grid-template-columns: 20px 1fr 60px; }
   .pool-bar { display: none; }
 }
+
+/* ---------- Pick'em suggested picks (top of tab) ---------- */
+.sugg-sub { color: var(--muted); font-weight: 400; font-size: 12px; }
+.sugg-list { display: flex; flex-direction: column; gap: 6px; margin: 12px 0 24px; }
+.sugg-row {
+  display: grid; grid-template-columns: 24px 1.1fr 56px 1.1fr 1.8fr;
+  gap: 10px; align-items: baseline;
+  background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px; padding: 8px 12px; font-size: 13px;
+}
+.sugg-num { color: var(--muted); font-family: monospace; }
+.sugg-rec { color: var(--accent-bright); font-weight: 600; }
+.sugg-reason { color: var(--muted); line-height: 1.45; }
+@media (max-width: 720px) {
+  .sugg-row { grid-template-columns: 24px 1fr 56px; }
+  .sugg-rec { grid-column: 2 / -1; }
+  .sugg-reason { grid-column: 1 / -1; }
+}

@@ -40,16 +40,7 @@
     <main>
       <!-- ============ FANTASY ============ -->
       <div class="tab-panel" id="panel-fantasy">
-        <section class="briefing" id="briefing">
-          <div class="briefing-head">
-            <span class="kicker">TODAY'S BRIEFING</span>
-            <span class="briefing-date" id="briefing-date"></span>
-          </div>
-          <h2 class="briefing-title" id="briefing-title"></h2>
-          <div class="briefing-quick" id="briefing-quick"></div>
-          <button class="expand-btn" id="briefing-expand" aria-expanded="false">Expand full briefing <span class="chev">▾</span></button>
-          <div class="briefing-full" id="briefing-full" hidden></div>
-        </section>
+        <div class="briefing-slot" id="briefing-fantasy"></div>
 
         <section class="roster" id="roster">
           <div class="section-head">
@@ -79,6 +70,8 @@
             <h2>PICK'EM — <span id="pickem-week"></span></h2>
             <span class="section-sub" id="pickem-status"></span>
           </div>
+          <div class="pickem-suggestions" id="pickem-suggestions"></div>
+          <div class="briefing-slot" id="briefing-pickem"></div>
           <div class="score-strip" id="pickem-score"></div>
           <div class="pickem-card">
             <div class="pickem-card-head">
@@ -98,6 +91,7 @@
             <h2>SURVIVOR — <span id="survivor-week"></span></h2>
             <span class="section-sub" id="survivor-source"></span>
           </div>
+          <div class="briefing-slot" id="briefing-survivor"></div>
           <div class="survivor-status" id="survivor-status"></div>
           <div class="survivor-pick" id="survivor-pick"></div>
           <div class="survivor-cols">
@@ -123,7 +117,7 @@
     </main>
 
     <footer>
-      <p>Roster data from <span id="footer-source"></span> · Briefings from <a href="../fantasy_football_guidance/docs/big-blue-wrecking-crew-2026.md">the team briefing</a> · <a href="../fantasy_football_guidance/docs/nfl-pickem-2026.md">pick'em</a> · <a href="../fantasy_football_guidance/docs/nfl-survivor-2026.md">survivor</a></p>
+      <p>Roster data from <span id="footer-source"></span> · Archived briefings in <code>../fantasy_football_guidance/archive/</code> (reference only)</p>
       <p>Local site · vanilla HTML/CSS/JS · no build step</p>
     </footer>
 
