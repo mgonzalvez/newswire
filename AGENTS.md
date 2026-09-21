@@ -103,6 +103,13 @@ Save screenshots to `../fantasy_football_guidance/screenshots/` (`<Type> YYYY-MM
 - `quick`: 3 lines starting with `Lineup:` / `Verify:` / `Action:` — these render as labeled chips in the hero. Glance-readable.
 - `full`: `##` sections — the Deep Dive. Sat: injury board, bench read, Sunday checklist · Sun: the result, player-by-player, lessons
 
+### Briefing voice (the `full` field)
+
+- **Prose, not fragments.** The Deep Dive reads like a veteran NFL analyst talking to the owner — full, readable paragraphs anchored to this roster, this league, and this week. Bullet lists only for genuine lists (checklists, score tables, injury boards); everything else is prose.
+- **Wry humor welcome** — it livens the writing, never the advice. The read, the reasoning, and the "what would flip it" all stay decisive and clear.
+- **No invented facts.** Every claim traces to a screenshot, a curated source, or an explicit `⚠ verify` tag.
+- The `quick` lines stay terse (the glance layer); the analysis, narrative, and personality go in `full`.
+
 ### Cadence
 
 | Day | Update |

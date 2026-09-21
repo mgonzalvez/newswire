@@ -43,6 +43,8 @@ Append an object to `data/posts.json`:
 | `quick` | 2–3 short lines. Lines starting with `Lineup:`, `Verify:`, `Action:` get labeled chips in the hero |
 | `full` | Markdown: `##`/`###` headings, `-` lists, `**bold**`, `*em*` |
 
+Posts are written in the voice of a veteran NFL analyst: full, readable paragraphs with wry humor — decisive advice first, personality second. `quick` is the glance layer (3 labeled lines); `full` is the prose layer. See `AGENTS.md` → "Briefing voice" for the style guide.
+
 ### Updating the roster
 
 Edit `data/roster.json`:
