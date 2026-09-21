@@ -81,7 +81,7 @@ The site is updated by the agent (pi) from a small daily input from Martin. Goal
 
 | When | What | Why |
 |------|------|-----|
-| **Sat (lineup day)** | 1. Roster screenshot — Yahoo "Current Week" tab, same framing as `roster 2026-09-17.png` (starters, bench, K, DST, pending transactions visible) · 2. One line: the lineup decision ("no changes" or "start X, bench Y") plus any confirmed facts he has | Screenshot = canonical roster facts. The decision is his call, not the agent's |
+| **Sat (lineup day)** | 1. Roster screenshot — Yahoo "Current Week" tab, same framing as `Roster 2026-09-17.png` (starters, bench, K, DST, pending transactions visible) · 2. One line: the lineup decision ("no changes" or "start X, bench Y") plus any confirmed facts he has | Screenshot = canonical roster facts. The decision is his call, not the agent's |
 | **Sun (after games)** | 1. Opponent's final score (or a league results screenshot) · 2. Roster screenshot (optional) | The opponent score is the only league data the agent cannot get from web search |
 | **Any day (something breaks)** | Screenshot + one line | Injury, trade, or claim outcome that changes the plan |
 | **Any day (pool)** | Pick'em / Survivor screenshot + one line | Card saved, score, pool distribution, or a lock decision |
