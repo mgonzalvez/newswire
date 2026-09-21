@@ -6,33 +6,84 @@
   "alive": true,
   "asOf": "2026-09-21",
   "source": "Survivor 2026-09-21 screenshot (12 active, Wk3 pool) + pickem wk3 2026-09-21 screenshot (Wk3 slate, Monday lines) + Martin: no team reuse — SF is burned",
-  "lastPick": {
-    "week": 2,
-    "team": "San Francisco 49ers",
-    "result": "SURVIVED — SF 35, Mia 13"
-  },
   "activeCount": 12,
   "usedTeams": [
-    { "week": 1, "team": "Jacksonville Jaguars" },
-    { "week": 2, "team": "San Francisco 49ers" }
-  ],
-  "week3Pool": [
-    { "team": "San Francisco 49ers", "pct": 32.93, "mine": true, "note": "Martin's pick — BURNED, cannot be reused" },
-    { "team": "Philadelphia Eagles", "pct": 13.63 },
-    { "team": "10 others", "pct": null, "note": "not yet picked as of the screenshot" }
+    {
+      "week": 1,
+      "team": "Jacksonville Jaguars"
+    },
+    {
+      "week": 2,
+      "team": "San Francisco 49ers"
+    }
   ],
   "week3Slate": {
     "note": "Monday lines from pickem wk3 screenshot — expect movement. Survivor is straight-up: pick the winner, not the cover.",
     "games": [
-      { "fav": "Green Bay -7.0", "game": "@ Atlanta (TNF)" }, { "fav": "Buffalo -7.0", "game": "vs LAC" },
-      { "fav": "Carolina -3.0", "game": "vs CLE" }, { "fav": "Detroit -6.5", "game": "vs NYJ" },
-      { "fav": "Houston -2.5", "game": "vs IND" }, { "fav": "Kansas City -10.5", "game": "vs MIA" },
-      { "fav": "New York (G) -6.0", "game": "vs TEN" }, { "fav": "Cincinnati -3.5", "game": "vs PIT" },
-      { "fav": "Seattle -6.5", "game": "vs WAS" }, { "fav": "Jacksonville -2.5", "game": "vs NE" },
-      { "fav": "San Francisco -8.5", "game": "vs ARI — BURNED for Martin" },
-      { "fav": "Minnesota -2.5", "game": "vs TB" }, { "fav": "Baltimore -3.0", "game": "vs DAL" },
-      { "fav": "New Orleans -3.5", "game": "vs LV" }, { "fav": "Los Angeles (R) -2.5", "game": "vs DEN" },
-      { "fav": "Philadelphia -4.0", "game": "vs CHI (Mon)" }
+      {
+        "fav": "Green Bay -7.0",
+        "game": "@ Atlanta (TNF)"
+      },
+      {
+        "fav": "Buffalo -7.0",
+        "game": "vs LAC"
+      },
+      {
+        "fav": "Carolina -3.0",
+        "game": "vs CLE"
+      },
+      {
+        "fav": "Detroit -6.5",
+        "game": "vs NYJ"
+      },
+      {
+        "fav": "Houston -2.5",
+        "game": "vs IND"
+      },
+      {
+        "fav": "Kansas City -10.5",
+        "game": "vs MIA"
+      },
+      {
+        "fav": "New York (G) -6.0",
+        "game": "vs TEN"
+      },
+      {
+        "fav": "Cincinnati -3.5",
+        "game": "vs PIT"
+      },
+      {
+        "fav": "Seattle -6.5",
+        "game": "vs WAS"
+      },
+      {
+        "fav": "Jacksonville -2.5",
+        "game": "vs NE"
+      },
+      {
+        "fav": "San Francisco -8.5",
+        "game": "vs ARI — BURNED for Martin"
+      },
+      {
+        "fav": "Minnesota -2.5",
+        "game": "vs TB"
+      },
+      {
+        "fav": "Baltimore -3.0",
+        "game": "vs DAL"
+      },
+      {
+        "fav": "New Orleans -3.5",
+        "game": "vs LV"
+      },
+      {
+        "fav": "Los Angeles (R) -2.5",
+        "game": "vs DEN"
+      },
+      {
+        "fav": "Philadelphia -4.0",
+        "game": "vs CHI (Mon)"
+      }
     ]
   },
   "recommendation": {
@@ -41,5 +92,49 @@
     "alternative": "Buffalo Bills (home vs 0-2 LAC, -7.0) — hot offense (41 Wk2), but a 7-point home line is a thinner margin of safety than KC's talent gap",
     "leverageNote": "12 players alive. SF (32.93%) is burned and PHI (13.63%) is the only other visible pick — KC's pool share is unknown; a small pool means the 10 untracked picks may cluster. Recheck the survivor screen for the live pool before locking."
   },
-  "upsetPath": "KC failure mode = a hot MIA passing game on a 10.5-point leash the market prices as a formality — if Willis stays healthy the D has to stand for 60 minutes. BUF failure mode = 0-2 LAC playing for its life at home in a primetime spot. No NFL matchup is a lock."
+  "upsetPath": "KC failure mode = a hot MIA passing game on a 10.5-point leash the market prices as a formality — if Willis stays healthy the D has to stand for 60 minutes. BUF failure mode = 0-2 LAC playing for its life at home in a primetime spot. No NFL matchup is a lock.",
+  "currentPick": {
+    "team": "Kansas City Chiefs (recommended — not locked)",
+    "opponent": "Miami Dolphins",
+    "when": "Sun 9/27 1:00 pm",
+    "line": -10.5,
+    "home": true
+  },
+  "poolDistribution": [
+    {
+      "rank": 1,
+      "team": "San Francisco 49ers",
+      "pct": 32.93,
+      "mine": true
+    },
+    {
+      "rank": 2,
+      "team": "Philadelphia Eagles",
+      "pct": 13.63
+    },
+    {
+      "rank": null,
+      "team": "10 others (not picked yet)",
+      "pct": null
+    }
+  ],
+  "rationale": "Wk2: SF cashed (35-13), pool down to 12, SF is burned (no reuse). Wk3 primary: Kansas City — biggest favorite on the board, home, vs the league's weakest offense (13 pts, 35 allowed Wk2). Survivor is straight-up: the margin is irrelevant, the win is everything. Alternative: Buffalo (home vs 0-2 LAC, -7.0). Only SF (32.93%, burned) and PHI (13.63%) are visible in the Wk3 pool — recheck the live distribution before locking; if half the pool stacks KC, PHI (Monday home, -4.0) is the safer diversification.",
+  "verifyBeforeLock": [
+    "MIA record + starting QB (0-2 per Wk1 read — confirm before locking KC)",
+    "Live Wk3 pool distribution — only SF + PHI visible in the 9/21 screenshot; the other 10 alive players haven't picked",
+    "KC line movement — if it drops hard toward MIA, investigate (Guardrail: market movement must be investigated)",
+    "Weather: none expected — both venues favorable"
+  ],
+  "ledger": [
+    {
+      "week": 1,
+      "team": "Jacksonville Jaguars",
+      "result": "Survived"
+    },
+    {
+      "week": 2,
+      "team": "San Francisco 49ers",
+      "result": "Survived"
+    }
+  ]
 }

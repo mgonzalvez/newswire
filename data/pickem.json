@@ -5,38 +5,224 @@
   "season": 2026,
   "week": 3,
   "status": "INCOMPLETE — 0/16 saved, picks not entered",
-  "score": { "weekPoints": null, "totalPoints": 13, "rank": "25/28", "record": "13-18" },
+  "score": {
+    "weekPoints": null,
+    "totalPoints": 13,
+    "rank": "25/28",
+    "record": "13-18"
+  },
   "asOf": "2026-09-21",
   "source": "pickem wk3 2026-09-21 screenshot (Monday opening lines + early pick distribution)",
   "linesNote": "Lines are Monday openers (Tue/Wed/Final blank in screenshot) — expect movement; recheck before each game's 5-minute deadline",
   "games": [
-    { "n": 1,  "fav": "Green Bay",        "dog": "Atlanta",        "when": "Thu 9/24 8:15 pm", "line": -7.0,  "crowd": 83, "pick": null, "contrarian": false },
-    { "n": 2,  "fav": "Buffalo",          "dog": "Los Angeles (C)","when": "Sun 9/27 1:00 pm", "line": -7.0,  "crowd": 84, "pick": null, "contrarian": false },
-    { "n": 3,  "fav": "Carolina",         "dog": "Cleveland",      "when": "Sun 9/27 1:00 pm", "line": -3.0,  "crowd": 60, "pick": null, "contrarian": false },
-    { "n": 4,  "fav": "Detroit",          "dog": "New York (J)",   "when": "Sun 9/27 1:00 pm", "line": -6.5,  "crowd": 78, "pick": null, "contrarian": false },
-    { "n": 5,  "fav": "Houston",          "dog": "Indianapolis",   "when": "Sun 9/27 1:00 pm", "line": -2.5,  "crowd": 43, "pick": null, "contrarian": false },
-    { "n": 6,  "fav": "Kansas City",      "dog": "Miami",          "when": "Sun 9/27 1:00 pm", "line": -10.5, "crowd": 74, "pick": null, "contrarian": false },
-    { "n": 7,  "fav": "New York (G)",     "dog": "Tennessee",      "when": "Sun 9/27 1:00 pm", "line": -6.0,  "crowd": 78, "pick": null, "contrarian": false },
-    { "n": 8,  "fav": "Cincinnati",       "dog": "Pittsburgh",     "when": "Sun 9/27 1:00 pm", "line": -3.5,  "crowd": 55, "pick": null, "contrarian": false },
-    { "n": 9,  "fav": "Seattle",          "dog": "Washington",     "when": "Sun 9/27 1:00 pm", "line": -6.5,  "crowd": 68, "pick": null, "contrarian": false },
-    { "n": 10, "fav": "Jacksonville",     "dog": "New England",    "when": "Sun 9/27 1:00 pm", "line": -2.5,  "crowd": 60, "pick": null, "contrarian": false },
-    { "n": 11, "fav": "San Francisco",    "dog": "Arizona",        "when": "Sun 9/27 4:05 pm", "line": -8.5,  "crowd": 83, "pick": null, "contrarian": false },
-    { "n": 12, "fav": "Minnesota",        "dog": "Tampa Bay",      "when": "Sun 9/27 4:05 pm", "line": -2.5,  "crowd": 47, "pick": null, "contrarian": false },
-    { "n": 13, "fav": "Baltimore",        "dog": "Dallas",         "when": "Sun 9/27 4:25 pm", "line": -3.0,  "crowd": 49, "pick": null, "contrarian": false },
-    { "n": 14, "fav": "New Orleans",      "dog": "Las Vegas",      "when": "Sun 9/27 4:25 pm", "line": -3.5,  "crowd": 67, "pick": null, "contrarian": false },
-    { "n": 15, "fav": "Los Angeles (R)",  "dog": "Denver",         "when": "Sun 9/27 8:20 pm", "line": -2.5,  "crowd": 42, "pick": null, "contrarian": false },
-    { "n": 16, "fav": "Philadelphia",     "dog": "Chicago",        "when": "Mon 9/28 8:15 pm", "line": -4.0,  "crowd": 55, "pick": null, "contrarian": false }
+    {
+      "n": 1,
+      "fav": "Green Bay",
+      "dog": "Atlanta",
+      "when": "Thu 9/24 8:15 pm",
+      "line": -7.0,
+      "crowd": 83,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 2,
+      "fav": "Buffalo",
+      "dog": "Los Angeles (C)",
+      "when": "Sun 9/27 1:00 pm",
+      "line": -7.0,
+      "crowd": 84,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 3,
+      "fav": "Carolina",
+      "dog": "Cleveland",
+      "when": "Sun 9/27 1:00 pm",
+      "line": -3.0,
+      "crowd": 60,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 4,
+      "fav": "Detroit",
+      "dog": "New York (J)",
+      "when": "Sun 9/27 1:00 pm",
+      "line": -6.5,
+      "crowd": 78,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 5,
+      "fav": "Houston",
+      "dog": "Indianapolis",
+      "when": "Sun 9/27 1:00 pm",
+      "line": -2.5,
+      "crowd": 43,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 6,
+      "fav": "Kansas City",
+      "dog": "Miami",
+      "when": "Sun 9/27 1:00 pm",
+      "line": -10.5,
+      "crowd": 74,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 7,
+      "fav": "New York (G)",
+      "dog": "Tennessee",
+      "when": "Sun 9/27 1:00 pm",
+      "line": -6.0,
+      "crowd": 78,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 8,
+      "fav": "Cincinnati",
+      "dog": "Pittsburgh",
+      "when": "Sun 9/27 1:00 pm",
+      "line": -3.5,
+      "crowd": 55,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 9,
+      "fav": "Seattle",
+      "dog": "Washington",
+      "when": "Sun 9/27 1:00 pm",
+      "line": -6.5,
+      "crowd": 68,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 10,
+      "fav": "Jacksonville",
+      "dog": "New England",
+      "when": "Sun 9/27 1:00 pm",
+      "line": -2.5,
+      "crowd": 60,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 11,
+      "fav": "San Francisco",
+      "dog": "Arizona",
+      "when": "Sun 9/27 4:05 pm",
+      "line": -8.5,
+      "crowd": 83,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 12,
+      "fav": "Minnesota",
+      "dog": "Tampa Bay",
+      "when": "Sun 9/27 4:05 pm",
+      "line": -2.5,
+      "crowd": 47,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 13,
+      "fav": "Baltimore",
+      "dog": "Dallas",
+      "when": "Sun 9/27 4:25 pm",
+      "line": -3.0,
+      "crowd": 49,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 14,
+      "fav": "New Orleans",
+      "dog": "Las Vegas",
+      "when": "Sun 9/27 4:25 pm",
+      "line": -3.5,
+      "crowd": 67,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 15,
+      "fav": "Los Angeles (R)",
+      "dog": "Denver",
+      "when": "Sun 9/27 8:20 pm",
+      "line": -2.5,
+      "crowd": 42,
+      "pick": null,
+      "contrarian": false
+    },
+    {
+      "n": 16,
+      "fav": "Philadelphia",
+      "dog": "Chicago",
+      "when": "Mon 9/28 8:15 pm",
+      "line": -4.0,
+      "crowd": 55,
+      "pick": null,
+      "contrarian": false
+    }
   ],
   "tiebreakers": {
-    "tb1": { "label": "Predict the scores", "deadline": "Mon Sep 28 8:10 pm EDT (PHI@CHI) · Sun Sep 27 8:20 pm EDT (LAR@DEN)", "games": ["Philadelphia @ Chicago", "Los Angeles (LAR) @ Denver"], "entered": false },
-    "tb2": { "label": "Most / fewest points this week", "deadline": "Thu Sep 24 8:10 pm EDT", "most": null, "fewest": null, "note": "Early read: MOST = Miami (vs KC, big total, KC allowed 30 Wk2) or Kansas City; FEWEST = Atlanta or Washington (two weak offenses, both allowed 34 / 37 Wk2) — ⚠ verify" }
+    "tb1": {
+      "label": "Predict the scores",
+      "deadline": "Mon Sep 28 8:10 pm EDT (PHI@CHI) · Sun Sep 27 8:20 pm EDT (LAR@DEN)",
+      "games": [
+        {
+          "away": "Philadelphia",
+          "awayScore": null,
+          "home": "Chicago",
+          "homeScore": null
+        },
+        {
+          "away": "Los Angeles (LAR)",
+          "awayScore": null,
+          "home": "Denver",
+          "homeScore": null
+        }
+      ],
+      "entered": false
+    },
+    "tb2": {
+      "label": "Most / fewest points this week",
+      "deadline": "Thu Sep 24 8:10 pm EDT",
+      "most": null,
+      "fewest": null,
+      "note": "Early read: MOST = Miami (vs KC, big total, KC allowed 30 Wk2) or Kansas City; FEWEST = Atlanta or Washington (two weak offenses, both allowed 34 / 37 Wk2) — ⚠ verify"
+    }
   },
   "recommendedCard": {
     "note": "Agent recommendation 2026-09-21 — balance the card after the Wk2 dog-cover bloodbath (9 of 15). Not Martin's picks until he saves them.",
     "picks": {
-      "1": "Green Bay -7.0", "2": "Buffalo -7.0", "3": "Cleveland +3.0", "4": "Detroit -6.5", "5": "Indianapolis +2.5",
-      "6": "Miami +10.5", "7": "Tennessee +6.0", "8": "Cincinnati -3.5", "9": "Washington +6.5", "10": "Jacksonville -2.5",
-      "11": "San Francisco -8.5", "12": "Tampa Bay +2.5", "13": "Dallas +3.0", "14": "New Orleans -3.5", "15": "Denver +2.5", "16": "Chicago +4.0"
+      "1": "Green Bay -7.0",
+      "2": "Buffalo -7.0",
+      "3": "Cleveland +3.0",
+      "4": "Detroit -6.5",
+      "5": "Indianapolis +2.5",
+      "6": "Miami +10.5",
+      "7": "Tennessee +6.0",
+      "8": "Cincinnati -3.5",
+      "9": "Washington +6.5",
+      "10": "Jacksonville -2.5",
+      "11": "San Francisco -8.5",
+      "12": "Tampa Bay +2.5",
+      "13": "Dallas +3.0",
+      "14": "New Orleans -3.5",
+      "15": "Denver +2.5",
+      "16": "Chicago +4.0"
     },
     "shape": "9 favorites + 7 dogs (Wk2 was 14 + 2). Deep favorites (KC -10.5, BUF -7.0, GB -7.0) kept only where the margin story is strong."
   },

@@ -6,7 +6,7 @@ const $ = (sel) => document.querySelector(sel);
 /* ---------- tiny markdown renderer (## / ### / - / ** / * ) ---------- */
 
 function esc(s) {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
 function inline(s) {
@@ -16,7 +16,7 @@ function inline(s) {
 }
 
 function renderMarkdown(md) {
-  const lines = md.split("\n");
+  const lines = String(md ?? "").split("\n");
   let html = "";
   let inList = false;
   for (const raw of lines) {
@@ -192,7 +192,7 @@ function renderPickem(d) {
     ["Total pts", s.totalPoints],
     ["Rank", s.rank],
     ["Record", s.record],
-  ].map(([l, v]) => `<div class="stat"><span class="stat-label">${l}</span><span class="stat-value">${v}</span></div>`).join("");
+  ].map(([l, v]) => `<div class="stat"><span class="stat-label">${l}</span><span class="stat-value">${v == null ? "—" : v}</span></div>`).join("");
 
   $("#pickem-rows").innerHTML = d.games.map((g) => {
     const isPickFav = g.pick === g.fav;
@@ -206,7 +206,7 @@ function renderPickem(d) {
         <span class="p-match">${esc(g.fav)} <span class="p-vs">vs</span> ${esc(g.dog)}</span>
         <span class="p-when">${esc(g.when)}</span>
         <span class="p-line">${g.line}</span>
-        <span class="${pickCls}">${esc(g.pick)}${g.contrarian ? " ⚡" : ""}</span>
+        <span class="${pickCls}">${g.pick != null ? esc(g.pick) : "—"}${g.contrarian ? " ⚡" : ""}</span>
         <span class="p-crowd">${g.crowd}%</span>
         ${result}
       </div>`;
@@ -214,8 +214,8 @@ function renderPickem(d) {
 
   const tb = d.tiebreakers;
   const tb1 = tb.tb1.games
-    .map((g) => `${esc(g.away)} <b>${g.awayScore}</b> @ ${esc(g.home)} <b>${g.homeScore}</b>`)
-.join(" · ");
+    .map((g) => `${esc(g.away)} ${g.awayScore != null ? `<b>${g.awayScore}</b>` : "—"} @ ${esc(g.home)} ${g.homeScore != null ? `<b>${g.homeScore}</b>` : "—"}`)
+    .join(" · ");
   $("#pickem-tiebreakers").innerHTML = `
     <div class="tb-block">
       <div class="subhead">TIEBREAKER 1 — ${esc(tb.tb1.label)}</div>
@@ -224,7 +224,7 @@ function renderPickem(d) {
     </div>
     <div class="tb-block">
       <div class="subhead">TIEBREAKER 2 — ${esc(tb.tb2.label)}</div>
-      <p class="tb-line">Most: <b>${esc(tb.tb2.most)}</b> · Fewest: <b>${esc(tb.tb2.fewest)}</b></p>
+      <p class="tb-line">Most: <b>${tb.tb2.most != null ? esc(tb.tb2.most) : "—"}</b> · Fewest: <b>${tb.tb2.fewest != null ? esc(tb.tb2.fewest) : "—"}</b></p>
       <p class="tb-deadline">${esc(tb.tb2.deadline)}</p>
     </div>`;
 
@@ -244,19 +244,24 @@ function renderSurvivor(d) {
     : `ELIMINATED — ${esc(d.status)}`;
 
   const p = d.currentPick;
-  $("#survivor-pick").innerHTML = `
+  $("#survivor-pick").innerHTML = p
+    ? `
     <div class="sp-label">THIS WEEK'S PICK</div>
     <div class="sp-team">${esc(p.team)}</div>
-    <div class="sp-meta">vs ${esc(p.opponent)} · ${esc(p.when)} · <span class="sp-line">${p.line}</span>${p.home ? " · home" : " · road"}</div>`;
+    <div class="sp-meta">vs ${esc(p.opponent)} · ${esc(p.when)} · <span class="sp-line">${p.line}</span>${p.home ? " · home" : " · road"}</div>`
+    : `
+    <div class="sp-label">THIS WEEK'S PICK</div>
+    <div class="sp-team">— not locked yet —</div>`;
 
-  const maxPct = Math.max(...d.poolDistribution.map((x) => x.pct));
-  $("#survivor-pool").innerHTML = d.poolDistribution
+  const pool = d.poolDistribution || [];
+  const maxPct = Math.max(...pool.map((x) => x.pct ?? 0), 0);
+  $("#survivor-pool").innerHTML = pool
     .map((x) => `
       <div class="pool-row${x.mine ? " mine" : ""}">
-        <span class="pool-rank">${x.rank}</span>
+        <span class="pool-rank">${x.rank != null ? x.rank : "—"}</span>
         <span class="pool-team">${esc(x.team)}${x.mine ? ' <span class="pool-mine">YOU</span>' : ""}</span>
-        <span class="pool-bar"><span class="pool-bar-fill" style="width:${(x.pct / maxPct) * 100}%"></span></span>
-        <span class="pool-pct">${x.pct}%</span>
+        <span class="pool-bar"><span class="pool-bar-fill" style="width:${x.pct != null ? (x.pct / maxPct) * 100 : 0}%"></span></span>
+        <span class="pool-pct">${x.pct != null ? x.pct + "%" : "—"}</span>
       </div>`)
     .join("");
 
@@ -269,9 +274,9 @@ function renderSurvivor(d) {
       </div>`)
     .join("");
 
-  $("#survivor-rationale").textContent = d.rationale;
-  $("#survivor-upset").textContent = d.upsetPath;
-  $("#survivor-verify").innerHTML = d.verifyBeforeLock.map((v) => `<li>${esc(v)}</li>`).join("");
+  $("#survivor-rationale").textContent = d.rationale || "";
+  $("#survivor-upset").textContent = d.upsetPath || "";
+  $("#survivor-verify").innerHTML = (d.verifyBeforeLock || []).map((v) => `<li>${esc(v)}</li>`).join("");
 }
 
 /* ---------- Tabs ---------- */
