@@ -1,42 +1,45 @@
 {
   "league": "MetLife Crisis · FourthandLong",
   "season": 2026,
-  "week": 2,
-  "status": "Active — still alive",
+  "week": 3,
+  "status": "Active — 12 alive, Week 3 pick not locked",
   "alive": true,
-  "asOf": "2026-09-19",
-  "source": "Survivor screenshot 2026-09-18 + web search refresh 2026-09-19",
-  "currentPick": {
+  "asOf": "2026-09-21",
+  "source": "Survivor 2026-09-21 screenshot (12 active, Wk3 pool) + pickem wk3 2026-09-21 screenshot (Wk3 slate, Monday lines) + Martin: no team reuse — SF is burned",
+  "lastPick": {
+    "week": 2,
     "team": "San Francisco 49ers",
-    "opponent": "Miami Dolphins",
-    "when": "Sun 1:25 pm",
-    "line": -13.5,
-    "home": false
+    "result": "SURVIVED — SF 35, Mia 13"
   },
-  "poolDistribution": [
-    { "rank": 1,  "team": "Tampa Bay",       "abbr": "TB",  "pct": 33.41 },
-    { "rank": 2,  "team": "San Francisco",   "abbr": "SF",  "pct": 33.07, "mine": true },
-    { "rank": 3,  "team": "Philadelphia",    "abbr": "PHI", "pct": 13.64 },
-    { "rank": 4,  "team": "Baltimore",       "abbr": "BAL", "pct": 5.5 },
-    { "rank": 5,  "team": "Green Bay",       "abbr": "GB",  "pct": 2.3 },
-    { "rank": 6,  "team": "Los Angeles (C)", "abbr": "LAC", "pct": 1.84 },
-    { "rank": 7,  "team": "Kansas City",     "abbr": "KC",  "pct": 1.74 },
-    { "rank": 8,  "team": "Carolina",        "abbr": "CAR", "pct": 1.74 },
-    { "rank": 9,  "team": "Chicago",         "abbr": "CHI", "pct": 1.37 },
-    { "rank": 10, "team": "Buffalo",         "abbr": "BUF", "pct": 1.11 }
+  "activeCount": 12,
+  "usedTeams": [
+    { "week": 1, "team": "Jacksonville Jaguars" },
+    { "week": 2, "team": "San Francisco 49ers" }
   ],
-  "ledger": [
-    { "week": 1, "team": "Jacksonville Jaguars", "result": "Survived" },
-    { "week": 2, "team": "San Francisco 49ers",  "result": "Pending" }
+  "week3Pool": [
+    { "team": "San Francisco 49ers", "pct": 32.93, "mine": true, "note": "Martin's pick — BURNED, cannot be reused" },
+    { "team": "Philadelphia Eagles", "pct": 13.63 },
+    { "team": "10 others", "pct": null, "note": "not yet picked as of the screenshot" }
   ],
-  "rationale": "SF looked strong in its Week 1 win over the Rams; Miami looked weak in Week 1. The matchup is favorable on paper and SF is a heavy favorite (-13.5). SF is the #2 most-picked team in the pool (33.07%), essentially tied with Tampa Bay (33.41%) — popularity here reflects a genuinely strong matchup, not just public clustering. Sat 9/19 refresh: line holding at -13.5 / 45.5, no movement; MIA's top edge (Chop Robinson) doubtful — SF safety reinforced.",
-  "upsetPath": "MIA's passing attack is the main threat — a hot Dolphins QB and SF's secondary giving up big plays is the realistic upset path. Sat 9/19: MIA's top edge Chop Robinson is DOUBTFUL (concussion) and Willis is dealing with a toe, while SF's O-line (Trent Williams) and RB1 (McCaffrey) were full participants Thursday. SF's Bosa is limited (knee). No NFL matchup is a lock.",
-  "verifyBeforeLock": [
-    "Brock Purdy health / starting status — RESOLVED: active (spoke to media after Wed practice)",
-    "SF offensive-line injuries — RESOLVED: Trent Williams + McCaffrey full participants Thu",
-    "SF injury board: Bosa limited (knee), Kittle limited (Achilles — practice management), Piñeiro out (illness), Kaelon Black limited (groin)",
-    "Miami: Willis (toe) full participant, will play; Chop Robinson (top edge) DOUBTFUL — concussion; Ronnie Harrison out — hamstring",
-    "Line: SF -13.5, total 45.5 (Thu night 9/18) — no movement",
-    "Weather (SF is indoor — low risk)"
-  ]
+  "week3Slate": {
+    "note": "Monday lines from pickem wk3 screenshot — expect movement. Survivor is straight-up: pick the winner, not the cover.",
+    "games": [
+      { "fav": "Green Bay -7.0", "game": "@ Atlanta (TNF)" }, { "fav": "Buffalo -7.0", "game": "vs LAC" },
+      { "fav": "Carolina -3.0", "game": "vs CLE" }, { "fav": "Detroit -6.5", "game": "vs NYJ" },
+      { "fav": "Houston -2.5", "game": "vs IND" }, { "fav": "Kansas City -10.5", "game": "vs MIA" },
+      { "fav": "New York (G) -6.0", "game": "vs TEN" }, { "fav": "Cincinnati -3.5", "game": "vs PIT" },
+      { "fav": "Seattle -6.5", "game": "vs WAS" }, { "fav": "Jacksonville -2.5", "game": "vs NE" },
+      { "fav": "San Francisco -8.5", "game": "vs ARI — BURNED for Martin" },
+      { "fav": "Minnesota -2.5", "game": "vs TB" }, { "fav": "Baltimore -3.0", "game": "vs DAL" },
+      { "fav": "New Orleans -3.5", "game": "vs LV" }, { "fav": "Los Angeles (R) -2.5", "game": "vs DEN" },
+      { "fav": "Philadelphia -4.0", "game": "vs CHI (Mon)" }
+    ]
+  },
+  "recommendation": {
+    "primary": "Kansas City Chiefs (home vs Miami, -10.5)",
+    "case": "Safest straight-up winner on the board: biggest favorite, home, and Miami is the league's weakest offense after allowing 35 to SF and scoring 13. ⚠ verify MIA's record (0-2 per Wk1 read — confirm) and starting QB before locking.",
+    "alternative": "Buffalo Bills (home vs 0-2 LAC, -7.0) — hot offense (41 Wk2), but a 7-point home line is a thinner margin of safety than KC's talent gap",
+    "leverageNote": "12 players alive. SF (32.93%) is burned and PHI (13.63%) is the only other visible pick — KC's pool share is unknown; a small pool means the 10 untracked picks may cluster. Recheck the survivor screen for the live pool before locking."
+  },
+  "upsetPath": "KC failure mode = a hot MIA passing game on a 10.5-point leash the market prices as a formality — if Willis stays healthy the D has to stand for 60 minutes. BUF failure mode = 0-2 LAC playing for its life at home in a primetime spot. No NFL matchup is a lock."
 }

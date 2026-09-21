@@ -3,34 +3,34 @@
     "name": "Big Blue Wrecking Crew",
     "league": "Yahoo Fantasy · 10-team league",
     "season": 2026,
-    "week": 2,
-    "waiverPriority": 8,
+    "week": 3,
+    "waiverPriority": 7,
     "bench": "6/6 full",
-    "asOf": "2026-09-19",
-    "source": "web search refresh 2026-09-19 (roster unchanged from 9/18 screenshot)"
+    "asOf": "2026-09-21",
+    "source": "roster wk3 2026-09-21 screenshot (Week 3 tab, roster carried over from Wk2)",
+    "w2Result": "W 135.08 vs Sandra's Fantasy Fumble 81.68",
+    "w3Opponent": "Runnin with the Bison! (9th) — projected 100.77 vs 93.29"
   },
-  "pendingTransactions": [
-    "Waiver 1 (Sep 19): Add George Kittle, Drop Kyle Pitts Sr. — processes TODAY; outcome ⚠ verify in Yahoo (not in web search yet); Pitts auto-drops if it clears"
-  ],
+  "pendingTransactions": [],
   "starters": [
-    { "pos": "QB", "name": "Brock Purdy", "team": "SF", "game": "Sun 4:25 pm vs Mia", "bye": 8, "proj": 20.41, "pctStart": 53, "pctRos": 94, "status": "active", "note": "ACTIVE — spoke to media after Wed practice; Trent Williams (OT) + McCaffrey full participants Thu; MIA's Chop Robinson doubtful (concussion) — floor plus" },
-    { "pos": "RB", "name": "Kenneth Walker", "team": "KC", "game": "Sun 8:20 pm vs Ind", "bye": 5, "proj": 15.82, "pctStart": 99, "pctRos": 100, "status": "active" },
-    { "pos": "RB", "name": "Chuba Hubbard", "team": "Car", "game": "Sun 1:00 pm @ Atl", "bye": 5, "proj": 11.41, "pctStart": 51, "pctRos": 92, "status": "active", "note": "Clear lead-back Wk1: 67.7% snaps, all 3 Panthers TDs" },
-    { "pos": "WR", "name": "Ja'Marr Chase", "team": "Cin", "game": "Sun 1:00 pm @ Hou", "bye": 6, "proj": 15.54, "pctStart": 98, "pctRos": 100, "status": "active", "note": "Knee — encouraging update, expected to play (Heavy 9/17); Wk1's 4 targets were by design per OC Pitcher" },
-    { "pos": "WR", "name": "Emeka Egbuka", "team": "TB", "game": "Sun 1:00 pm vs Cle", "bye": 10, "proj": 9.78, "pctStart": 78, "pctRos": 98, "status": "active", "note": "Promoted to WR2 — Collins RULED OUT Wk2 (NBC Sports 9/18); locked, no swap-back possible unless Collins reactivates later week" },
-    { "pos": "TE", "name": "Kyle Pitts Sr.", "team": "Atl", "game": "Sun 1:00 pm vs Car", "bye": 11, "proj": 8.06, "pctStart": 59, "pctRos": 94, "status": "active", "note": "Auto-drops if Kittle claim clears (processes today, 9/19 — ⚠ verify outcome in Yahoo)" },
-    { "pos": "FLEX", "name": "Tetairoa McMillan", "team": "Car", "game": "Sun 1:00 pm @ Atl", "bye": 5, "proj": 11.35, "pctStart": 86, "pctRos": 99, "status": "active", "note": "WR32 Wk1 (5/7/75, 8 targets); CAR QB is Bryce Young" }
+    { "pos": "QB", "name": "Brock Purdy", "team": "SF", "game": "Sun 4:05 pm vs Ari", "bye": 8, "proj": 20.40, "pctStart": 57, "pctRos": 94, "status": "active", "note": "28.48 Wk2 (287 yds, 2 TD, 1 rush TD). Wk3 vs ARI — ⚠ verify Bosa (knee) status; ARI allowed 7 pts Wk2 but lost" },
+    { "pos": "RB", "name": "Kenneth Walker III", "team": "KC", "game": "Sun 1:00 pm @ Mia", "bye": 5, "proj": 14.88, "pctStart": 99, "pctRos": 100, "status": "active", "note": "20.80 Wk2 (117 rush, 61 rec yds). MIA allowed 13 pts Wk2 — softest run D on the slate" },
+    { "pos": "RB", "name": "Chuba Hubbard", "team": "Car", "game": "Sun 1:00 pm @ Cle", "bye": 5, "proj": 10.67, "pctStart": 55, "pctRos": 93, "status": "active", "note": "13.40 Wk2 (53 rush, 1 rec TD, 11 rec yds). CLE was a Wk2 cover magnet (won 23-19 vs TB) — run D ⚠ verify" },
+    { "pos": "WR", "name": "Ja'Marr Chase", "team": "Cin", "game": "Sun 1:00 pm @ Pit", "bye": 6, "proj": 15.27, "pctStart": 98, "pctRos": 100, "status": "active", "note": "23.00 Wk2 (7 rec, 75 yds, 2 TD) — knee resolved, back to elite form. PIT defense gave up 3 pts to NE Wk2" },
+    { "pos": "WR", "name": "Emeka Egbuka", "team": "TB", "game": "Sun 4:05 pm vs Min", "bye": 10, "proj": 9.36, "pctStart": 80, "pctRos": 98, "status": "active", "note": "8.80 Wk2 (1 TD). MIN held GB to 20 — ⚠ verify Egbuka knee status + MIN secondary" },
+    { "pos": "TE", "name": "Dalton Schultz", "team": "Hou", "game": "Sun 1:00 pm @ Ind", "bye": 8, "proj": 7.34, "pctStart": 23, "pctRos": 57, "status": "active", "note": "20.00 Wk2 (140 yds, 12 rec) vs CIN — breakout. IND has a weather icon ⚠ verify conditions + TE role with Collins OUT" },
+    { "pos": "FLEX", "name": "Tetairoa McMillan", "team": "Car", "game": "Sun 1:00 pm @ Cle", "bye": 5, "proj": 10.45, "pctStart": 87, "pctRos": 99, "status": "active", "note": "12.60 Wk2 (5 rec, 101 yds). Same CLE road game as Hubbard — both playing a team that won Wk2" }
   ],
   "specialists": [
-    { "pos": "K", "name": "Tyler Bass", "team": "Buf", "game": "Final W 41-31 vs Det", "bye": 7, "proj": 7.90, "pctStart": 17, "pctRos": 18, "status": "active", "note": "Added Fri — Wk1: 3 FG / 5.0 pts; healthy; replaces Piñeiro (dropped, illness)" },
-    { "pos": "DST", "name": "Baltimore Ravens", "team": "BAL", "game": "Sun 1:00 pm vs NO", "bye": null, "proj": 7.50, "pctStart": 71, "pctRos": 77, "status": "active", "note": "#3 Wk2 DST matchup — hold" }
+    { "pos": "K", "name": "Tyler Bass", "team": "Buf", "game": "Sun 1:00 pm vs LAC", "bye": 7, "proj": 7.18, "pctStart": 17, "pctRos": 18, "status": "active", "note": "5.00 Wk2 (5 PATs — no FGs). BUF 2-0 with hot offense vs 0-2 LAC — FG volume upside" },
+    { "pos": "DST", "name": "Baltimore Ravens", "team": "BAL", "game": "Sun 4:25 pm @ Dal", "bye": 13, "proj": 5.22, "pctStart": 72, "pctRos": 78, "status": "active", "note": "3.00 Wk2 (3 sacks) in a 17-24 loss. DAL allowed 37 pts Wk2 — weak D; Ravens road at a team that bleeds points. Weakest slot on the lineup" }
   ],
   "bench": [
-    { "pos": "WR", "name": "Nico Collins", "team": "Hou", "game": "Sun 1:00 pm vs Cin", "bye": 8, "proj": 13.57, "pctStart": 88, "pctRos": 100, "status": "out", "note": "OUT — ruled out Wk2 (NBC Sports 9/18), hamstring. Egbuka is the locked WR2; no swap-back possible unless Collins reactivates in a later week" },
-    { "pos": "RB", "name": "Travis Etienne Jr.", "team": "NO", "game": "Sun 1:00 pm @ Bal", "bye": 8, "proj": 9.64, "pctStart": 78, "pctRos": 98, "note": "Kamara back (off injury report, season debut vs BAL) but Moore: not handing backfield to Kamara; Etienne had 59% of Wk1 snaps — role sit vs Baltimore" },
-    { "pos": "RB", "name": "Jeremiyah Love", "team": "Ari", "game": "Sun 4:25 pm vs Sea", "bye": 14, "proj": 10.38, "pctStart": 77, "pctRos": 99 },
-    { "pos": "WR", "name": "Jameson Williams", "team": "Det", "game": "Final L 31-41 @ Buf (Thu)", "bye": 6, "proj": 10.33, "pctStart": 66, "pctRos": 96, "note": "Played Thursday — 4.30 pts" },
-    { "pos": "WR", "name": "KC Concepcion Jr.", "team": "Cle", "game": "Sun 1:00 pm @ TB", "bye": 11, "proj": 7.80, "pctStart": 7, "pctRos": 70 },
-    { "pos": "RB", "name": "Kaelon Black", "team": "SF", "game": "Sun 4:25 pm vs Mia", "bye": 8, "proj": 5.98, "pctStart": 3, "pctRos": 55, "note": "Limited Thu (groin) — committee bench signal only" }
+    { "pos": "WR", "name": "Nico Collins", "team": "Hou", "game": "Sun 1:00 pm @ Ind", "bye": 8, "proj": 14.71, "pctStart": 27, "pctRos": 100, "status": "out", "note": "OUT Wk3 (Martin confirmed) — hamstring, second consecutive week. Yahoo still projects 14.71 — projection noise on an inactive WR" },
+    { "pos": "RB", "name": "Travis Etienne Jr.", "team": "NO", "game": "Sun 4:25 pm vs LV", "bye": 8, "proj": 10.01, "pctStart": 74, "pctRos": 98, "note": "6.10 Wk2 (25 rush, 6 rec, 1 fumble) in a 24-17 win @ BAL. LV gives up 3rd-fewest fantasy pts to RBs (Martin) — worst RB matchup on this roster; stays benched" },
+    { "pos": "RB", "name": "Jeremiyah Love", "team": "Ari", "game": "Sun 4:05 pm @ SF", "bye": 14, "proj": 13.30, "pctStart": 76, "pctRos": 99, "note": "6.00 Wk2 (29 rush, 16 rec yds). ARI offense vs SF D — low floor, high variance" },
+    { "pos": "WR", "name": "Jameson Williams", "team": "Det", "game": "Sun 1:00 pm vs NYJ", "bye": 6, "proj": 11.73, "pctStart": 65, "pctRos": 96, "note": "4.30 Wk2 (33 yds, 2 rec). DET 1-1 with a top-3 Wk1 offense; NYJ allowed 17 pts Wk2. Highest-ceiling bench WR — FLEX swing candidate" },
+    { "pos": "WR", "name": "KC Concepcion Jr.", "team": "Cle", "game": "Sun 1:00 pm vs Car", "bye": 11, "proj": 8.19, "pctStart": 8, "pctRos": 69, "note": "Deep stash — 8% start" },
+    { "pos": "RB", "name": "Kaelon Black", "team": "SF", "game": "Sun 4:05 pm vs Ari", "bye": 8, "proj": 5.13, "pctStart": 2, "pctRos": 55, "note": "2.50 Wk2 (25 rush) in the win — committee signal only, McCaffrey dominates" }
   ]
 }

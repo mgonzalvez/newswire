@@ -134,7 +134,7 @@ Save screenshots to `../fantasy_football_guidance/screenshots/` (`<Type> YYYY-MM
 
 ## Season State (volatile — verify against the data JSON + curated sources)
 
-- 2026 season, Week 2 in progress as of 2026-09-21.
-- Fantasy: lineup locked 9/19 — Purdy, Walker, Hubbard, Chase, Egbuka (WR2), Schultz (TE), McMillan (FLEX), Bass (K), Ravens DST. Kittle claim failed (sniped); Pitts dropped. Collins OUT. Bench 6/6, waiver priority 8.
-- Pick'em: Wk2 card locked 16/16 — 1 pt (Buffalo ✓), 8 total, rank 15/28, 8-9.
-- Survivor: alive; Wk2 pick = SF 49ers (pool #2, 33.07%, -13.5 road). JAX used Wk1.
+- 2026 season, Week 3 prep as of 2026-09-21.
+- Fantasy: Wk2 W 135.08 vs Sandra's Fantasy Fumble (blowout, 8 of 9 starters 8+). Wk3 lineup holds (Purdy, Walker, Hubbard, Chase, Egbuka, Schultz, McMillan, Bass, Ravens DST); Collins OUT again, Etienne benched (LV = 3rd-fewest to RBs). Opponent: Runnin with the Bison! (proj 100.77 vs 93.29). Waiver priority 7.
+- Pick'em (ATS league): Wk2 = 6 pts, 25/28, 13-18 — PHI won 24-20 but failed -7.0; 9 of 15 played games went to the dog. Wk3 card recommended 9 favs + 7 dogs (in pickem.json `recommendedCard`), not yet saved by Martin.
+- Survivor: alive, 12 remain. Wk2 SF cashed (35-13); SF burned (no reuse). Wk3 recommended: KC (home vs MIA, -10.5), alt BUF — pending live pool recheck.
