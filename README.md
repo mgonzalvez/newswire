@@ -1,6 +1,6 @@
 # The Wrecking Wire
 
-Daily blog/newswire for the **Big Blue Wrecking Crew** — a Yahoo Fantasy football team (2026 season). Every day gets a dated post: a quick 3-line briefing (lineup / verify / action) that expands into a full story, plus a live roster view.
+Daily newswire and **source of truth** for Martin's 2026 fantasy ops — three tabs on one page: **Fantasy** (Big Blue Wrecking Crew, Yahoo), **Pick'em** (MetLife Crisis), **Survivor** (MetLife Crisis). Every update gets a dated post: a Quick Check (3-line briefing) that expands into the full Deep Dive story, plus a live roster/pool view.
 
 Static site — vanilla HTML/CSS/JS, no frameworks, no build step, no package.json.
 
@@ -61,4 +61,6 @@ GitHub Pages, deployed from the `main` branch (Settings → Pages → Deploy fro
 
 ## Companion Files
 
-The authoritative briefings live in the sibling folder `../fantasy_football_guidance/docs/` (linked from the footer). Roster facts must match the dated screenshots there — position facts come from Yahoo, not inference.
+- Roster and pool facts come from dated screenshots in `../fantasy_football_guidance/screenshots/` — position facts come from Yahoo, not inference.
+- Volatile facts (injuries, lines, active lists, scores) come from a curated set of sources: ESPN, Rotowire, FantasyPros, Yahoo, official NFL injury report.
+- The old 2026 briefing docs live in `../fantasy_football_guidance/archive/` — frozen reference material, not a live source.
