@@ -2,10 +2,10 @@
   "league": "MetLife Crisis · FourthandLong",
   "season": 2026,
   "week": 3,
-  "status": "Active — 12 alive, Week 3 pick not locked",
+  "status": "Active — 12 alive, Week 3 pick LOCKED: Kansas City Chiefs",
   "alive": true,
-  "asOf": "2026-09-21",
-  "source": "Survivor 2026-09-21 screenshot (12 active, Wk3 pool) + pickem wk3 2026-09-21 screenshot (Wk3 slate, Monday lines) + Martin: no team reuse — SF is burned",
+  "asOf": "2026-09-22",
+  "source": "Survivor 2026-09-22 screenshot (KC selected, live Wk3 pool) + Martin: locking KC, 'no-brainer of the week'",
   "activeCount": 12,
   "usedTeams": [
     {
@@ -17,8 +17,9 @@
       "team": "San Francisco 49ers"
     }
   ],
+  "lockDate": "2026-09-22",
   "week3Slate": {
-    "note": "Monday lines from pickem wk3 screenshot — expect movement. Survivor is straight-up: pick the winner, not the cover.",
+    "note": "Tuesday lines — expect movement. Survivor is straight-up: pick the winner, not the cover.",
     "games": [
       {
         "fav": "Green Bay -7.0",
@@ -87,43 +88,82 @@
     ]
   },
   "recommendation": {
-    "primary": "Kansas City Chiefs (home vs Miami, -10.5)",
-    "case": "Safest straight-up winner on the board: biggest favorite, home, and Miami is the league's weakest offense after allowing 35 to SF and scoring 13. ⚠ verify MIA's record (0-2 per Wk1 read — confirm) and starting QB before locking.",
-    "alternative": "Buffalo Bills (home vs 0-2 LAC, -7.0) — hot offense (41 Wk2), but a 7-point home line is a thinner margin of safety than KC's talent gap",
-    "leverageNote": "12 players alive. SF (32.93%) is burned and PHI (13.63%) is the only other visible pick — KC's pool share is unknown; a small pool means the 10 untracked picks may cluster. Recheck the survivor screen for the live pool before locking."
+    "primary": "Kansas City Chiefs (home vs Miami, -10.5) — LOCKED by Martin 2026-09-22",
+    "case": "Safest straight-up winner on the board: biggest favorite, home, and Miami is the league's weakest offense — 2 TDs all season, 20% red-zone rate.",
+    "alternative": "Green Bay (-7.0, TNF home vs 0-2 ATL) — 12.9% of the pool, and the second option is a coin-flip margin, not a safety net"
   },
-  "upsetPath": "KC failure mode = a hot MIA passing game on a 10.5-point leash the market prices as a formality — if Willis stays healthy the D has to stand for 60 minutes. BUF failure mode = 0-2 LAC playing for its life at home in a primetime spot. No NFL matchup is a lock.",
+  "upsetPath": "KC failure mode = a hot MIA passing day on a 10.5-point leash the market prices as a formality, or a Mahomes issue — he appears on the Week 3 injury report, ⚠ verify status before Sunday. Even if KC fails to cover, a straight-up win is all Survivor needs; the realistic kill scenario is MIA winning outright, which the 2-TD offense makes the least likely result on the board.",
   "currentPick": {
-    "team": "Kansas City Chiefs (recommended — not locked)",
+    "team": "Kansas City Chiefs",
     "opponent": "Miami Dolphins",
     "when": "Sun 9/27 1:00 pm",
     "line": -10.5,
-    "home": true
+    "home": true,
+    "locked": true
   },
   "poolDistribution": [
     {
       "rank": 1,
-      "team": "San Francisco 49ers",
-      "pct": 32.93,
+      "team": "Kansas City Chiefs",
+      "pct": 41.38,
       "mine": true
     },
     {
       "rank": 2,
+      "team": "Green Bay Packers",
+      "pct": 12.9
+    },
+    {
+      "rank": 3,
+      "team": "Buffalo Bills",
+      "pct": 10.53
+    },
+    {
+      "rank": 4,
+      "team": "San Francisco 49ers",
+      "pct": 9.12
+    },
+    {
+      "rank": 5,
+      "team": "Detroit Lions",
+      "pct": 7.42
+    },
+    {
+      "rank": 6,
+      "team": "Seattle Seahawks",
+      "pct": 6.19
+    },
+    {
+      "rank": 7,
+      "team": "Carolina Panthers",
+      "pct": 3.26
+    },
+    {
+      "rank": 8,
+      "team": "New York Giants",
+      "pct": 2.79
+    },
+    {
+      "rank": 9,
       "team": "Philadelphia Eagles",
-      "pct": 13.63
+      "pct": 1.51
+    },
+    {
+      "rank": 10,
+      "team": "New Orleans Saints",
+      "pct": 1.09
     },
     {
       "rank": null,
-      "team": "10 others (not picked yet)",
+      "team": "6 others below 1%",
       "pct": null
     }
   ],
-  "rationale": "Wk2: SF cashed (35-13), pool down to 12, SF is burned (no reuse). Wk3 primary: Kansas City — biggest favorite on the board, home, vs the league's weakest offense (13 pts, 35 allowed Wk2). Survivor is straight-up: the margin is irrelevant, the win is everything. Alternative: Buffalo (home vs 0-2 LAC, -7.0). Only SF (32.93%, burned) and PHI (13.63%) are visible in the Wk3 pool — recheck the live distribution before locking; if half the pool stacks KC, PHI (Monday home, -4.0) is the safer diversification.",
-  "verifyBeforeLock": [
-    "MIA record + starting QB (0-2 per Wk1 read — confirm before locking KC)",
-    "Live Wk3 pool distribution — only SF + PHI visible in the 9/21 screenshot; the other 10 alive players haven't picked",
-    "KC line movement — if it drops hard toward MIA, investigate (Guardrail: market movement must be investigated)",
-    "Weather: none expected — both venues favorable"
+  "rationale": "Wk3: KC locked. The 9/21 leverage worry — a half the pool stacking KC — turned out to be real but survivable: KC holds 41.38%, the largest single pile, with GB (12.9%), BUF (10.53%), SF (9.12%) and DET (7.42%) spread across the rest. Survivor math: you only die if KC loses outright, and Miami's 2-TD, 20%-red-zone offense is the weakest result on the board. Note: SF's 9.12% is another player's pick — reuse bans are per-player, so nobody else burned SF. The one live risk is Mahomes (on the Wk3 injury report, ⚠ verify) — but even a Mahomes wobble rarely turns into an outright MIA win at home KC.",
+  "verifyBeforeGame": [
+    "Mahomes status — appears on the Wk3 injury report; fetch failed 9/22, ⚠ verify before Sunday",
+    "KC line movement — if it drops hard toward MIA, investigate",
+    "MIA starting QB — 0-2, 2 TDs all season; confirm he's the guy"
   ],
   "ledger": [
     {

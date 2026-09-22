@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "2026-09-22-week3-final-card",
+      "date": "2026-09-22",
+      "tag": "Lineup",
+      "domain": "pickem",
+      "title": "Week 3 Pick'em: Card Saved — 14 Favs, 2 Dogs, One Value Flag Left on the Table",
+      "quick": [
+        "Action: 16/16 saved. 14 favorites + 2 dogs (INDY +2.5, DEN +2.5). Tiebreakers in: PHI 24–20, DEN 24–20 over LAR; most SF / fewest MIA.",
+        "Verify: fresh data backs KC WINNING but not KC -10.5 — MIA has 2 TDs all season, 20% red zone; the market sits KC ~-8.5/-9 vs the pool's -10.5. In an ATS league the -10.5 NUMBER is the risk, not the win.",
+        "Action: recheck the KC number before its 5-minute deadline — late line movement is the only open item."
+      ],
+      "full": "## The card is in\n\nMartin saved all 16 on Tuesday: 14 favorites and 2 dogs — Indianapolis +2.5 and Denver +2.5. Both dogs are home teams at short numbers, which is exactly the profile that worked in theory: the short leash with the home dog. Indy is 57% of the pool and Denver 58%, so even the 'contrarian' picks aren't that contrarian — that's fine. In a 28-entry pool you want to be right more than you want to be unusual.\n\n## The MIA question\n\nThe one flag from the Monday audit was the Kansas City number. The market had KC around -8.5 to -9 (Squawka odds), while the pool locks KC at -10.5. In a straight-up world that gap is nothing; in an ATS league it's the whole game. Martin held KC -10.5 anyway, and the honest read is that he was right to look at the other side of the ledger first: Miami has scored two touchdowns all season and converts 20% in the red zone. A 0-2 offense that can't finish drives is a -10.5 dog in name only. The red-team version of this pick is narrow and specific — KC wins by 1 to 10 and the pick fails — and that's a live risk, not a panic. The win probability is exactly what we'd want; the cover is where the number bites.\n\n## Tiebreakers\n\nPHI 24, CHI 20 and DEN 24, LAR 20 for the score predictions; SF for most, MIA for fewest. SF-most is consistent with the 83% pool and the 35-point Week 2. MIA-fewest is the same MIA that just scored two TDs in a whole season — the board is agreeing with itself, which is either confidence or a correlated error. We'll find out Sunday.\n\n## Sunday checklist\n\n- Recheck the KC line right before its deadline — if it's drifted to -9, the cover math flips and the dog becomes the number play.\n- NYG@LAR from Monday night set the NYG -6.0 number; the pick already accounts for it (Adebo on IR, Banks calf, Newsome ribs).\n- Weather is the quiet variable on the 1:00 slate — confirm nothing has popped before lock."
+    },
+    {
+      "id": "2026-09-22-week3-survivor-lock",
+      "date": "2026-09-22",
+      "tag": "Lineup",
+      "domain": "survivor",
+      "title": "Week 3 Survivor: KC Locked — 41.38% of the Pool Sits in Your Boat",
+      "quick": [
+        "Action: KC locked (home vs MIA, Sun 1:00) — Martin's call, 'the no-brainer of the week.' 41.38% of the pool. Next closest: GB 12.9%.",
+        "Verify: the 9/21 pool concern is resolved — KC is crowded, but the rest is split (BUF 10.53, SF 9.12, DET 7.42). KC dies you only if it LOSES outright, and MIA's 2-TD offense is the weakest result on the board.",
+        "Verify: ⚠ Mahomes is on the Week 3 injury report (source fetch failed 9/22) — check his status Sunday; a wobbly Mahomes rarely flips into an outright MIA win at home KC."
+      ],
+      "full": "## The lock\n\nMartin chose Kansas City and it's locked. That resolves the one open question from Monday, which wasn't 'should we pick KC' — the answer was always yes — but 'how much of the pool is sitting in the same boat?' The live distribution answers it: KC 41.38%, Green Bay 12.9%, Buffalo 10.53%, San Francisco 9.12%, Detroit 7.42%, Seattle 6.19%, and a long tail under 4% from there.\n\n## Reading the pool\n\n41% is a lot of company, and in Survivor that cuts both ways. The upside: the field clearly believes KC is the safest straight-up win, which tracks — biggest favorite, home, against the league's weakest scoring offense (2 TDs, 20% red zone). The downside: if KC loses, roughly four in ten players go down with it, and a second-place finish in a mass-casualty week is no consolation. The mitigating fact is the spread of everything else — GB, BUF, SF, and DET are each under 13%, so the field isn't all-in on KC; it's a plurality, not a pile-on. You're not alone in the boat, but you're not crowded off the dock either.\n\nOne note on the SF 9.12%: that's another player's pick, not a problem. Reuse bans are per-player — Martin's burn on SF (Week 2) only restricts Martin. Nobody else in the pool is tied to his history.\n\n## The failure mode\n\nStraight-up, the realistic way KC drops this is a Mahomes issue. He's on the Week 3 injury report; the detailed status didn't come back clean (source fetch failed 9/22), so it's tagged ⚠ verify for Sunday. Even a shaky Mahomes day at home against a 0-2, 2-TD offense is an unlikely path to an outright loss — but it's the path, so it's the one worth checking. Everything else on the board is a thinner margin: GB at 12.9% is the 'safe' alternative only in the sense that it's the second-most-believed team, not because 0-2 Atlanta is a safety net. KC was the right lock, and it still is.\n\n## After this week\n\nIf KC wins, Martin is 3-0 with 11 players remaining and the field's next decision gets uglier. The ledger keeps a clean run — JAX, SF, KC — and the reuse ban means the 49ers can never be the easy out again."
+    },
+    {
+      "id": "2026-09-22-week3-roster-refresh",
+      "date": "2026-09-22",
+      "tag": "Transactions",
+      "domain": "fantasy",
+      "title": "Week 3 Fantasy: New Name, Wk2 Finalized, Nine Slots Unchanged",
+      "quick": [
+        "Lineup: no changes — Purdy, Walker (KC), Hubbard, Chase, Egbuka, Schultz, McMillan, Bass, and the Ravens DST all start. Collins is OUT again (Yahoo listing); Schultz owns every target in Houston.",
+        "Verify: Wk2 official is 110.55 vs 97.97 over Sandra's Fantasy Fumble (the earlier 135.08 was a midweek misread). 240.32 total, 5th of 10. Wk3 opponent: Runnin with the Bison! (9th).",
+        "Action: team is now 'Martin's MetLife Crisis.' Waiver priority 7, bench 6/6, 0 of 2 IR slots used — nothing to do Tuesday."
+      ],
+      "full": "## The rename\n\nThe team now goes by Martin's MetLife Crisis — matching the Pick'em and Survivor leagues under one banner. No roster move came with it, and the Week 3 lineup is exactly what Monday held: nine slots, zero panic.\n\n## Wk2, finalized\n\nThe official Week 2 result is 110.55 over Sandra's Fantasy Fumble's 97.97 — a win, not the blowout the earlier 135.08 figure implied (that was a midweek score read, now corrected). The season record is 1-1-0 with 240.32 total points, 5th of 10. The Week 3 matchup is Runnin with the Bison! (9th), still a favorable mirror on paper.\n\n## The Week 3 board\n\nThree of the nine starting slots kick off at 1:00 — Walker, Hubbard, Chase, and McMillan all play at 1:00, which is a good concentration: four starters in the same window, two of them (Hubbard, McMillan) in the same game at Cleveland. Walker's matchup is the board's best read: Miami has scored two touchdowns all season and converts 20% in the red zone, so the Chiefs' road game at a 0-2 D is the softest run matchup on the slate. Chase at Pittsburgh is the other strong spot — Cincinnati's Week 2 numbers and Pittsburgh's three-point Week 2 giving set up a clean WR1 day. Schultz is the quiet beneficiary of the week: with Collins OUT for a second straight game (consecutive hamstring miss), the breakout TE from Week 2 is now the unambiguous target.\n\nThe two live questions on Sunday: the weather icons on the 1:00 slate (IND, CLE, NYJ games) and the Mahomes note from the injury report — it matters more for the Pick'em and Survivor than for this roster, but Walker's floor rides with it. Collins stays on the bench marked OUT; if he activates for Week 4, he's the instant WR2 over Egbuka."
+    },
+    {
       "id": "2026-09-21-week3-fantasy",
       "date": "2026-09-21",
       "tag": "Lineup",

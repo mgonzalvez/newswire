@@ -4,16 +4,16 @@
   "entries": 28,
   "season": 2026,
   "week": 3,
-  "status": "COMPLETE — 16/16 saved (PROVISIONAL — lines still moving, recheck before each game's 5-minute deadline)",
+  "status": "COMPLETE — 16/16 saved (FINAL, 2026-09-22)",
   "score": {
     "weekPoints": null,
     "totalPoints": 13,
     "rank": "25/28",
     "record": "13-18"
   },
-  "asOf": "2026-09-21",
-  "source": "pickem wk3 2026-09-21 screenshot (Monday opening lines + early pick distribution)",
-  "linesNote": "Lines are Monday openers (Tue/Wed/Final blank in screenshot) — expect movement; recheck before each game's 5-minute deadline",
+  "asOf": "2026-09-22",
+  "source": "pickem 2026-09-22 screenshot (final saved card + live pick distribution + tiebreakers)",
+  "linesNote": "Card saved 9/22; lines as shown, expect late movement — recheck before each game's 5-minute deadline",
   "games": [
     {
       "n": 1,
@@ -25,9 +25,9 @@
       "pick": "Green Bay",
       "contrarian": false,
       "rec": "Green Bay -7.0",
-      "reason": "HOLD — GB home (ATL road) per card @; market ~-7, pool -7 in line. 83% of the pool is with you; take the chalk in the TNF spot.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED — GB home (ATL road) per card @; market ~-7, pool -7 in line. 83% of the pool is with you; take the chalk in the TNF spot.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 2,
@@ -39,9 +39,9 @@
       "pick": "Buffalo",
       "contrarian": false,
       "rec": "Buffalo -7.0",
-      "reason": "HOLD — BUF home; market -7 matches the pool. 84% of the pool on the favorite — safe, unsexy, correct.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED — BUF home; market -7 matches the pool. 84% of the pool on the favorite — safe, unsexy, correct.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 3,
@@ -53,9 +53,9 @@
       "pick": "Carolina",
       "contrarian": false,
       "rec": "Carolina -3.0",
-      "reason": "INVESTIGATE — CLE is home; market has CAR ~-2.5, so the pool's -3 asks a half more than the book. CLE's Wk2 win over TB is the data point to study before lock. If the market opens wider on CLE, the dog is live.",
-      "pickStatus": "provisional",
-      "tag": "investigate"
+      "reason": "SAVED — CLE is home and the market had CAR ~-2.5, so the pool's -3 asks a half more than the book; CLE's Wk2 win over TB was the caution flag. Martin held the favorite at 60/40 — short number, acceptable risk.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 4,
@@ -67,9 +67,9 @@
       "pick": "Detroit",
       "contrarian": false,
       "rec": "Detroit -6.5",
-      "reason": "HOLD — DET home, market -6.5; NYJ allowed 17 in Wk2. Number and market agree.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED — DET home, market -6.5; NYJ allowed 17 in Wk2. Number and market agree.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 5,
@@ -79,11 +79,11 @@
       "line": -2.5,
       "crowd": 43,
       "pick": "Indianapolis",
-      "contrarian": false,
+      "contrarian": true,
       "rec": "Indianapolis +2.5",
-      "reason": "HOLD (dog) — IND home at +2.5; HOU lost by 14 in Wk2. The short leash with the home dog is the value side, market and pool roughly agree.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED (dog) — IND home at +2.5; HOU lost by 14 in Wk2. The short leash with the home dog is the value side, market and pool roughly agree (57% with you).",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 6,
@@ -94,10 +94,10 @@
       "crowd": 74,
       "pick": "Kansas City",
       "contrarian": false,
-      "rec": "Miami +10.5",
-      "reason": "POTENTIAL FLIP — the card's line-value play: the pool locks KC at -10.5 while the market sits ~-8.5 to -9 (bet365). Miami +10.5 gets the market's number plus ~2 points of the pool's error — KC wins 30-21 and the dog still cashes. 74% of the pool on KC = the leverage. Re-verify the market line before saving.",
-      "pickStatus": "provisional",
-      "tag": "potential-flip"
+      "rec": "MIA +10.5 (flag) / Martin held KC",
+      "reason": "SAVED — the one audit flag: market sits ~-8.5/-9 (Squawka odds), so the dog was the number play in an ATS league. Martin held KC -10.5 (74% of pool) — MIA has scored 2 TDs all season and converts 20% in the red zone, which makes the 10.5 a cover-risk, not a win-risk. The red-team point stands: if KC wins by 1-10, the pick fails.",
+      "pickStatus": "saved",
+      "tag": "value-flag-left"
     },
     {
       "n": 7,
@@ -109,9 +109,9 @@
       "pick": "New York (G)",
       "contrarian": false,
       "rec": "New York (G) -6.0",
-      "reason": "REASSESS TOMORROW — NYG home, market -6 matches the pool. The line is waiting on tonight's NYG@LAR: Adebo is on short-term IR (out 4+ games), Banks (calf) missed practice, Newsome (rib) practiced fully. Save the result first, then confirm or flip to TEN +6.",
-      "pickStatus": "provisional",
-      "tag": "reassess-tomorrow"
+      "reason": "SAVED at -6.0 after MNF — Adebo is on short-term IR (4+ games), Banks (calf) missed practice, Newsome (rib) practiced fully. The number held; the favorite stands.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 8,
@@ -123,9 +123,9 @@
       "pick": "Cincinnati",
       "contrarian": false,
       "rec": "Cincinnati -3.5",
-      "reason": "HOLD — CIN road at PIT; market opens -3.5, pool -3.5. Wk2: CIN 20-6, PIT 3. Numbers line up.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED — CIN road at PIT; market opens -3.5, pool -3.5. Wk2: CIN 20-6, PIT 3. Numbers line up.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 9,
@@ -137,9 +137,9 @@
       "pick": "Seattle",
       "contrarian": false,
       "rec": "Seattle -6.5",
-      "reason": "HOLD — SEA road at WAS (6.5 home leash for Washington); market has SEA -6, so the pool's -6.5 asks a half more than the book — a small tilt toward WAS, not enough to flip a 68%-of-pool favorite with a 31-7 Wk2. Watch the number.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED — SEA road at WAS (6.5 home leash for Washington); market had SEA -6, so the pool's -6.5 asks a half more than the book — a small tilt, not enough to fade a 68%-of-pool favorite with a 31-7 Wk2.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 10,
@@ -151,9 +151,9 @@
       "pick": "Jacksonville",
       "contrarian": false,
       "rec": "Jacksonville -2.5",
-      "reason": "HOLD — JAX home; market agrees. Short number, 60% of the pool, no reason to touch it.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED — JAX home; market agrees. Short number, 60% of the pool, no reason to touch it.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 11,
@@ -165,9 +165,9 @@
       "pick": "San Francisco",
       "contrarian": false,
       "rec": "San Francisco -8.5",
-      "reason": "HOLD — SF home vs ARI; the 83% of the pool on the 35-13 team is the right crowd for the right reason.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED — SF home vs ARI; the 83% of the pool on the 35-13 team is the right crowd for the right reason. Same Purdy game as the fantasy lineup.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 12,
@@ -179,9 +179,9 @@
       "pick": "Minnesota",
       "contrarian": false,
       "rec": "Minnesota -2.5",
-      "reason": "HOLD — best pick on the card: market -2.5 = pool -2.5, MIN road at a 0-2 TB that lost 23-19 in Wk2, and only 47% of your opponents are with you. Favorite at the market's number with contrarian pool leverage.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED — best pick on the card: market -2.5 = pool -2.5, MIN road at a 0-2 TB that lost 23-19 in Wk2, and only 47% of your opponents are with you. Favorite at the market's number with contrarian pool leverage (53% on TB).",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 13,
@@ -193,9 +193,9 @@
       "pick": "Baltimore",
       "contrarian": false,
       "rec": "Baltimore -3.0",
-      "reason": "HOLD — best value on the card: the market has BAL ~-3.5 while the pool only asks -3. You're getting the book's number cheaper, and 49% of the pool is on Dallas. Don't abandon it for Dallas' Wk2 win.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED — best value on the card: the market had BAL ~-3.5 while the pool only asked -3. You're getting the book's number cheaper, and 51% of the pool is on Dallas. Same 4:25 slot as the fantasy Ravens DST.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 14,
@@ -207,9 +207,9 @@
       "pick": "New Orleans",
       "contrarian": false,
       "rec": "New Orleans -3.5",
-      "reason": "HOLD — NO home; market LV +3.5 = pool. 1-1 at home with a 24-pt Wk2; 67% of the pool on the favorite.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED — NO home; market LV +3.5 = pool. 1-1 at home with a 24-pt Wk2; 67% of the pool on the favorite.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 15,
@@ -219,11 +219,11 @@
       "line": -2.5,
       "crowd": 42,
       "pick": "Denver",
-      "contrarian": false,
+      "contrarian": true,
       "rec": "Denver +2.5",
-      "reason": "HOLD (dog) — DEN home at +2.5; LAR is 0-1 and just flew home from a Monday game with Nacua a GTD. 58% of the pool already agrees with the dog.",
-      "pickStatus": "provisional",
-      "tag": "hold"
+      "reason": "SAVED (dog) — DEN home at +2.5; LAR is 0-1 and just flew home from a Monday game with Nacua a GTD. 58% of the pool already agrees with the dog.",
+      "pickStatus": "saved",
+      "tag": "saved"
     },
     {
       "n": 16,
@@ -234,10 +234,10 @@
       "crowd": 55,
       "pick": "Philadelphia",
       "contrarian": false,
-      "rec": "Chicago +4.0",
-      "reason": "INVESTIGATE — CHI home; the market has PHI ~-3.5, so the pool's -4 asks a half more than the book. Real line value for the dog, but not a blind flip — confirm the number holds before lock.",
-      "pickStatus": "provisional",
-      "tag": "investigate"
+      "rec": "Philadelphia -4.0",
+      "reason": "SAVED — CHI home; the market had PHI ~-3.5, so the pool's -4 asks a half more than the book — real line value for the dog, but Martin held the favorite at 55/45. Late-week number, can still be re-examined Monday.",
+      "pickStatus": "saved",
+      "tag": "saved"
     }
   ],
   "tiebreakers": {
@@ -265,8 +265,8 @@
       "deadline": "Thu Sep 24 8:10 pm EDT",
       "most": "San Francisco",
       "fewest": "Miami",
-      "note": "Entered 9/21. SF = the 83% pool favorite and the 35-pt Wk2 offense; MIA = the 0-2 team that scored 13 hosting KC."
+      "note": "Entered 9/21. SF = the 83% pool favorite and the 35-pt Wk2 offense; MIA = the 0-2 team that scored 13 hosting KC — and just scored 2 TDs in its whole season so far."
     }
   },
-  "notes": "METHOD (updated 9/21 after card review): the pool's fixed line is the product, the book's current line is the benchmark. Value = pool number better than market + Wk2 evidence + pool leverage. Do NOT fade a favorite because last week was chaotic, and do NOT call a dog a trap because the favorite covered. Card shape now 14 favorites + 2 dogs (IND, DEN); single flagged flip = MIA +10.5 (pool -10.5 vs market ~-8.5); investigate = CLE +3, CHI +4; reassess NYG after tonight's MNF. Venue note: on this card '@' marks the HOME team (verified: Wk2 BUF home 41-31, PURDY 'vs Mia'). Wk2 lesson (record): 6 pts, 25/28, PHI won 24-20 but failed -7.0."
+  "notes": "Card SAVED 9/22 — 14 favorites + 2 dogs (IND +2.5, DEN +2.5). Single audit deviation: the MIA +10.5 value flag was left on the table — Martin held KC -10.5 (74% of pool) on the strength of Miami's 2-TD season; the market's ~-8.5/-9 means the -10.5 number, not the win, is the risk in an ATS league. Tiebreakers entered: PHI 24–20, DEN 24–20 (over LAR); SF most / MIA fewest. Method unchanged: pool line = the product, market = the benchmark. Venue note: on this card '@' marks the HOME team."
 }

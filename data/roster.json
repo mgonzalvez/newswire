@@ -1,15 +1,16 @@
 {
   "team": {
-    "name": "Big Blue Wrecking Crew",
+    "name": "Martin's MetLife Crisis",
     "league": "Yahoo Fantasy · 10-team league",
     "season": 2026,
     "week": 3,
+    "record": "1-1-0 · 240.32 total pts · 5th of 10",
     "waiverPriority": 7,
     "bench": "6/6 full",
-    "asOf": "2026-09-21",
-    "source": "roster wk3 2026-09-21 screenshot (Week 3 tab, roster carried over from Wk2)",
-    "w2Result": "W 135.08 vs Sandra's Fantasy Fumble 81.68",
-    "w3Opponent": "Runnin with the Bison! (9th) — projected 100.77 vs 93.29"
+    "asOf": "2026-09-22",
+    "source": "Roster 2026-09-22 screenshot (Week 3 tab, live projections, lineup held)",
+    "w2Result": "W 110.55 vs Sandra's Fantasy Fumble 97.97 (official)",
+    "w3Opponent": "Runnin with the Bison! (9th) — Sun 1:00 pm game slate; 0-0 as of Tuesday"
   },
   "pendingTransactions": [],
   "starters": [
@@ -19,8 +20,8 @@
       "team": "SF",
       "game": "Sun 4:05 pm vs Ari",
       "bye": 8,
-      "proj": 20.4,
-      "pctStart": 57,
+      "proj": 20.56,
+      "pctStart": 62,
       "pctRos": 94,
       "status": "active",
       "note": "28.48 Wk2 (287 yds, 2 TD, 1 rush TD). Wk3 vs ARI — ⚠ verify Bosa (knee) status; ARI allowed 7 pts Wk2 but lost"
@@ -31,11 +32,11 @@
       "team": "KC",
       "game": "Sun 1:00 pm @ Mia",
       "bye": 5,
-      "proj": 14.88,
+      "proj": 17.1,
       "pctStart": 99,
       "pctRos": 100,
       "status": "active",
-      "note": "20.80 Wk2 (117 rush, 61 rec yds). MIA allowed 13 pts Wk2 — softest run D on the slate"
+      "note": "Moved to KC for 2026 (confirmed by Martin). 20.80 Wk2 (117 rush, 61 rec yds). MIA has scored 2 TDs all season, 20% red-zone rate — softest run D on the slate"
     },
     {
       "pos": "RB",
@@ -43,8 +44,8 @@
       "team": "Car",
       "game": "Sun 1:00 pm @ Cle",
       "bye": 5,
-      "proj": 10.67,
-      "pctStart": 55,
+      "proj": 12.79,
+      "pctStart": 60,
       "pctRos": 93,
       "status": "active",
       "note": "13.40 Wk2 (53 rush, 1 rec TD, 11 rec yds). CLE was a Wk2 cover magnet (won 23-19 vs TB) — run D ⚠ verify"
@@ -55,8 +56,8 @@
       "team": "Cin",
       "game": "Sun 1:00 pm @ Pit",
       "bye": 6,
-      "proj": 15.27,
-      "pctStart": 98,
+      "proj": 16.27,
+      "pctStart": 100,
       "pctRos": 100,
       "status": "active",
       "note": "23.00 Wk2 (7 rec, 75 yds, 2 TD) — knee resolved, back to elite form. PIT defense gave up 3 pts to NE Wk2"
@@ -67,8 +68,8 @@
       "team": "TB",
       "game": "Sun 4:05 pm vs Min",
       "bye": 10,
-      "proj": 9.36,
-      "pctStart": 80,
+      "proj": 9.33,
+      "pctStart": 78,
       "pctRos": 98,
       "status": "active",
       "note": "8.80 Wk2 (1 TD). MIN held GB to 20 — ⚠ verify Egbuka knee status + MIN secondary"
@@ -79,11 +80,11 @@
       "team": "Hou",
       "game": "Sun 1:00 pm @ Ind",
       "bye": 8,
-      "proj": 7.34,
-      "pctStart": 23,
+      "proj": 8.82,
+      "pctStart": 27,
       "pctRos": 57,
       "status": "active",
-      "note": "20.00 Wk2 (140 yds, 12 rec) vs CIN — breakout. IND has a weather icon ⚠ verify conditions + TE role with Collins OUT"
+      "note": "20.00 Wk2 (140 yds, 12 rec) vs CIN — breakout. Collins OUT again removes the target-share question: Schultz is the clear TE1 in Houston"
     },
     {
       "pos": "FLEX",
@@ -91,8 +92,8 @@
       "team": "Car",
       "game": "Sun 1:00 pm @ Cle",
       "bye": 5,
-      "proj": 10.45,
-      "pctStart": 87,
+      "proj": 11.5,
+      "pctStart": 88,
       "pctRos": 99,
       "status": "active",
       "note": "12.60 Wk2 (5 rec, 101 yds). Same CLE road game as Hubbard — both playing a team that won Wk2"
@@ -105,9 +106,9 @@
       "team": "Buf",
       "game": "Sun 1:00 pm vs LAC",
       "bye": 7,
-      "proj": 7.18,
+      "proj": 8.79,
       "pctStart": 17,
-      "pctRos": 18,
+      "pctRos": 19,
       "status": "active",
       "note": "5.00 Wk2 (5 PATs — no FGs). BUF 2-0 with hot offense vs 0-2 LAC — FG volume upside"
     },
@@ -117,8 +118,8 @@
       "team": "BAL",
       "game": "Sun 4:25 pm @ Dal",
       "bye": 13,
-      "proj": 5.22,
-      "pctStart": 72,
+      "proj": 5.39,
+      "pctStart": 70,
       "pctRos": 78,
       "status": "active",
       "note": "3.00 Wk2 (3 sacks) in a 17-24 loss. DAL allowed 37 pts Wk2 — weak D; Ravens road at a team that bleeds points. Weakest slot on the lineup"
@@ -131,11 +132,11 @@
       "team": "Hou",
       "game": "Sun 1:00 pm @ Ind",
       "bye": 8,
-      "proj": 14.71,
-      "pctStart": 27,
+      "proj": 0,
+      "pctStart": 23,
       "pctRos": 100,
-      "status": "questionable",
-      "note": "Hamstring — OUT Wk2, UNCERTAIN for Wk3 (FantasyPros 9/21: no HC update Monday; 'in jeopardy of missing Week 3'). Martin's read: out. Confirm on Sunday's active list — if he's active, he's the WR2 over Egbuka."
+      "status": "out",
+      "note": "OUT for Wk3 (Yahoo listing, consecutive miss — hamstring). If he activates for Wk4, he's the instant WR2 over Egbuka."
     },
     {
       "pos": "RB",
@@ -143,8 +144,8 @@
       "team": "NO",
       "game": "Sun 4:25 pm vs LV",
       "bye": 8,
-      "proj": 10.01,
-      "pctStart": 74,
+      "proj": 9.51,
+      "pctStart": 72,
       "pctRos": 98,
       "note": "6.10 Wk2 (25 rush, 6 rec, 1 fumble) in a 24-17 win @ BAL. LV gives up 3rd-fewest fantasy pts to RBs (Martin) — worst RB matchup on this roster; stays benched"
     },
@@ -154,8 +155,8 @@
       "team": "Ari",
       "game": "Sun 4:05 pm @ SF",
       "bye": 14,
-      "proj": 13.3,
-      "pctStart": 76,
+      "proj": 11.67,
+      "pctStart": 77,
       "pctRos": 99,
       "note": "6.00 Wk2 (29 rush, 16 rec yds). ARI offense vs SF D — low floor, high variance"
     },
@@ -165,8 +166,8 @@
       "team": "Det",
       "game": "Sun 1:00 pm vs NYJ",
       "bye": 6,
-      "proj": 11.73,
-      "pctStart": 65,
+      "proj": 11.02,
+      "pctStart": 63,
       "pctRos": 96,
       "note": "4.30 Wk2 (33 yds, 2 rec). DET 1-1 with a top-3 Wk1 offense; NYJ allowed 17 pts Wk2. Highest-ceiling bench WR — FLEX swing candidate"
     },
@@ -176,10 +177,10 @@
       "team": "Cle",
       "game": "Sun 1:00 pm vs Car",
       "bye": 11,
-      "proj": 8.19,
-      "pctStart": 8,
+      "proj": 8.05,
+      "pctStart": 10,
       "pctRos": 69,
-      "note": "Deep stash — 8% start"
+      "note": "Deep stash — 10% start"
     },
     {
       "pos": "RB",
@@ -187,7 +188,7 @@
       "team": "SF",
       "game": "Sun 4:05 pm vs Ari",
       "bye": 8,
-      "proj": 5.13,
+      "proj": 4.79,
       "pctStart": 2,
       "pctRos": 55,
       "note": "2.50 Wk2 (25 rush) in the win — committee signal only, McCaffrey dominates"
