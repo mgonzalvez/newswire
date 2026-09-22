@@ -141,7 +141,7 @@ Save screenshots to `../fantasy_football_guidance/screenshots/` (`<Type> YYYY-MM
 
 ## Season State (volatile — verify against the data JSON + curated sources)
 
-- 2026 season, Week 3 prep as of 2026-09-21.
-- Fantasy: Wk2 W 135.08 vs Sandra's Fantasy Fumble (blowout, 8 of 9 starters 8+). Wk3 lineup holds (Purdy, Walker, Hubbard, Chase, Egbuka, Schultz, McMillan, Bass, Ravens DST); Collins OUT again, Etienne benched (LV = 3rd-fewest to RBs). Opponent: Runnin with the Bison! (proj 100.77 vs 93.29). Waiver priority 7.
-- Pick'em (ATS league): Wk2 = 6 pts, 25/28, 13-18 — PHI won 24-20 but failed -7.0; 9 of 15 played games went to the dog. Wk3 card recommended 9 favs + 7 dogs (in pickem.json `recommendedCard`), not yet saved by Martin.
-- Survivor: alive, 12 remain. Wk2 SF cashed (35-13); SF burned (no reuse). Wk3 recommended: KC (home vs MIA, -10.5), alt BUF — pending live pool recheck.
+- 2026 season, Week 3 locked as of 2026-09-22.
+- Fantasy: team renamed **Martin's MetLife Crisis**. Wk2 official: W 110.55 vs Sandra's Fantasy Fumble 97.97 (earlier 135.08 was a midweek misread). 1-1-0, 240.32 pts, 5th of 10. Wk3 lineup holds (Purdy, Walker-KC, Hubbard, Chase, Egbuka, Schultz, McMillan, Bass, Ravens DST); Collins OUT again, Schultz owns HOU targets. Opponent: Runnin with the Bison! (9th). Waiver priority 7, 0/2 IR used.
+- Pick'em (ATS league): Wk3 card SAVED 9/22 — 14 favorites + 2 dogs (INDY +2.5, DEN +2.5); MIA +10.5 value flag left on the table (market KC ~-8.5/-9 vs pool -10.5). Tiebreakers: PHI 24–20, DEN 24–20; SF most / MIA fewest. Wk2 record: 6 pts, 25/28, 13-18; 9 of 15 played went to the dog.
+- Survivor: alive, 12 remain. KC LOCKED 9/22 — 41.38% of pool (largest pile), GB 12.9%, BUF 10.53%, SF 9.12%, DET 7.42%. MIA = 2 TDs all season, 20% red zone. ⚠ verify Mahomes (Wk3 injury report; fetch failed 9/22).
