@@ -176,12 +176,12 @@
       "when": "Sun 9/27 4:05 pm",
       "line": -2.5,
       "crowd": 47,
-      "pick": "Minnesota",
-      "contrarian": false,
-      "rec": "Minnesota -2.5",
-      "reason": "SAVED — best pick on the card: market -2.5 = pool -2.5, MIN road at a 0-2 TB that lost 23-19 in Wk2, and only 47% of your opponents are with you. Favorite at the market's number with contrarian pool leverage (53% on TB).",
+      "pick": "Tampa Bay",
+      "contrarian": true,
+      "rec": "Minnesota -2.5 (flag) / Martin flipped to TB",
+      "reason": "SAVED — Martin flipped to TB +2.5 (53% of pool) after the 9/22 save. The audit had MIN -2.5 as the best pick on the card (market = pool, 0-2 TB); the flip goes to the dog side, consistent with the Wk2 read that 9 of 15 played games went to the dog. TB's Wk2 23-19 win over CLE is the evidence for it.",
       "pickStatus": "saved",
-      "tag": "saved"
+      "tag": "flipped-dog"
     },
     {
       "n": 13,
@@ -190,12 +190,12 @@
       "when": "Sun 9/27 4:25 pm",
       "line": -3.0,
       "crowd": 49,
-      "pick": "Baltimore",
-      "contrarian": false,
-      "rec": "Baltimore -3.0",
-      "reason": "SAVED — best value on the card: the market had BAL ~-3.5 while the pool only asked -3. You're getting the book's number cheaper, and 51% of the pool is on Dallas. Same 4:25 slot as the fantasy Ravens DST.",
+      "pick": "Dallas",
+      "contrarian": true,
+      "rec": "Baltimore -3.0 (flag) / Martin flipped to DAL",
+      "reason": "SAVED — Martin flipped to DAL +3.0 (51% of pool) after the 9/22 save. The audit had BAL -3.0 as the best value (market ~-3.5 vs pool -3); the flip takes the pool's majority side and the Wk2 evidence (DAL allowed 37, BAL lost 17-24 at DAL). Two flips, both to the dog, both on the 53%/51% side of the pool.",
       "pickStatus": "saved",
-      "tag": "saved"
+      "tag": "flipped-dog"
     },
     {
       "n": 14,
@@ -218,12 +218,12 @@
       "when": "Sun 9/27 8:20 pm",
       "line": -2.5,
       "crowd": 42,
-      "pick": "Denver",
-      "contrarian": true,
-      "rec": "Denver +2.5",
-      "reason": "SAVED (dog) — DEN home at +2.5; LAR is 0-1 and just flew home from a Monday game with Nacua a GTD. 58% of the pool already agrees with the dog.",
+      "pick": "Los Angeles (R)",
+      "contrarian": false,
+      "rec": "Denver +2.5 (flag) / Martin flipped to LAR",
+      "reason": "SAVED — Martin flipped from DEN +2.5 to LAR -2.5 (42% pool) after the 9/22 save. The audit had the dog as the value — DEN home +2.5, LAR 0-1, Nacua GTD — and 58% of the pool is on Denver, so this one goes against both the audit and the crowd.",
       "pickStatus": "saved",
-      "tag": "saved"
+      "tag": "flipped-fav"
     },
     {
       "n": 16,
@@ -268,5 +268,5 @@
       "note": "Entered 9/21. SF = the 83% pool favorite and the 35-pt Wk2 offense; MIA = the 0-2 team that scored 13 hosting KC — and just scored 2 TDs in its whole season so far."
     }
   },
-  "notes": "Card SAVED 9/22 — 14 favorites + 2 dogs (IND +2.5, DEN +2.5). Single audit deviation: the MIA +10.5 value flag was left on the table — Martin held KC -10.5 (74% of pool) on the strength of Miami's 2-TD season; the market's ~-8.5/-9 means the -10.5 number, not the win, is the risk in an ATS league. Tiebreakers entered: PHI 24–20, DEN 24–20 (over LAR); SF most / MIA fewest. Method unchanged: pool line = the product, market = the benchmark. Venue note: on this card '@' marks the HOME team."
+  "notes": "Card SAVED 9/22, revised twice same day — final shape 13 favorites + 3 dogs (IND +2.5, TB +2.5, DAL +3.0). Same-day flips: MIN→TB (dog, 53% pool) and BAL→DAL (dog, 51% pool) — both to the dog side where the pool majority sits, consistent with Wk2 (9 of 15 played went to the dog) even though the audit flagged MIN -2.5 and BAL -3.0 as the number plays; DEN→LAR (favorite, 42% pool) — against the audit's dog value (DEN home +2.5, LAR 0-1, Nacua GTD) and against the 58% pool. Single audit deviation on the original save: the MIA +10.5 value flag was left on the table — Martin held KC -10.5 (74% of pool) on the strength of Miami's 2-TD season; the market's ~-8.5/-9 means the -10.5 number, not the win, is the risk in an ATS league. Tiebreakers entered: PHI 24–20, DEN 24–20 (over LAR); SF most / MIA fewest. Method unchanged: pool line = the product, market = the benchmark. Venue note: on this card '@' marks the HOME team."
 }
