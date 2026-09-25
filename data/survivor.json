@@ -2,10 +2,10 @@
   "league": "MetLife Crisis · FourthandLong",
   "season": 2026,
   "week": 3,
-  "status": "Active — 12 alive, Week 3 pick LOCKED: Kansas City Chiefs",
+  "status": "Active — no strike, still alive. Week 3 pick LOCKED: Kansas City Chiefs",
   "alive": true,
-  "asOf": "2026-09-22",
-  "source": "Survivor 2026-09-22 screenshot (KC selected, live Wk3 pool) + Martin: locking KC, 'no-brainer of the week'",
+  "asOf": "2026-09-24",
+  "source": "Survivor 2026-09-24 screenshot (live Wk3 pool) + official Chiefs Wk3 injury report (chiefs.com, 9/24)",
   "activeCount": 12,
   "usedTeams": [
     {
@@ -19,162 +19,61 @@
   ],
   "lockDate": "2026-09-22",
   "week3Slate": {
-    "note": "Tuesday lines — expect movement. Survivor is straight-up: pick the winner, not the cover.",
+    "note": "Thursday lines — expect movement into Sunday. Survivor is straight-up: pick the winner, not the cover.",
     "games": [
-      {
-        "fav": "Green Bay -7.0",
-        "game": "@ Atlanta (TNF)"
-      },
-      {
-        "fav": "Buffalo -7.0",
-        "game": "vs LAC"
-      },
-      {
-        "fav": "Carolina -3.0",
-        "game": "vs CLE"
-      },
-      {
-        "fav": "Detroit -6.5",
-        "game": "vs NYJ"
-      },
-      {
-        "fav": "Houston -2.5",
-        "game": "vs IND"
-      },
-      {
-        "fav": "Kansas City -10.5",
-        "game": "vs MIA"
-      },
-      {
-        "fav": "New York (G) -6.0",
-        "game": "vs TEN"
-      },
-      {
-        "fav": "Cincinnati -3.5",
-        "game": "vs PIT"
-      },
-      {
-        "fav": "Seattle -6.5",
-        "game": "vs WAS"
-      },
-      {
-        "fav": "Jacksonville -2.5",
-        "game": "vs NE"
-      },
-      {
-        "fav": "San Francisco -8.5",
-        "game": "vs ARI — BURNED for Martin"
-      },
-      {
-        "fav": "Minnesota -2.5",
-        "game": "vs TB"
-      },
-      {
-        "fav": "Baltimore -3.0",
-        "game": "vs DAL"
-      },
-      {
-        "fav": "New Orleans -3.5",
-        "game": "vs LV"
-      },
-      {
-        "fav": "Los Angeles (R) -2.5",
-        "game": "vs DEN"
-      },
-      {
-        "fav": "Philadelphia -4.0",
-        "game": "vs CHI (Mon)"
-      }
+      { "fav": "Atlanta (+21 over GB in Wk2)", "game": "vs GB (TNF) — ATL 35, GB 14" },
+      { "fav": "Buffalo -7.0", "game": "vs LAC" },
+      { "fav": "Carolina -2.5", "game": "vs CLE" },
+      { "fav": "Detroit -6.5", "game": "vs NYJ" },
+      { "fav": "Houston -2.5", "game": "vs IND" },
+      { "fav": "Kansas City -11.5", "game": "vs MIA — LOCKED (line deepened from -10.5)" },
+      { "fav": "New York (G) -2.5 (was -6.0)", "game": "vs TEN" },
+      { "fav": "Cincinnati -3.5", "game": "vs PIT" },
+      { "fav": "Seattle -7.0", "game": "vs WAS" },
+      { "fav": "Jacksonville -3.0", "game": "vs NE" },
+      { "fav": "San Francisco -8.5", "game": "vs ARI — BURNED for Martin" },
+      { "fav": "Minnesota -1.5 (was -2.5)", "game": "vs TB" },
+      { "fav": "Baltimore -3.5", "game": "vs DAL" },
+      { "fav": "New Orleans -3.0 (was -3.5)", "game": "vs LV" },
+      { "fav": "Los Angeles (R) -2.5", "game": "vs DEN" },
+      { "fav": "Philadelphia -4.5", "game": "vs CHI (Mon)" }
     ]
   },
   "recommendation": {
-    "primary": "Kansas City Chiefs (home vs Miami, -10.5) — LOCKED by Martin 2026-09-22",
-    "case": "Safest straight-up winner on the board: biggest favorite, home, and Miami is the league's weakest offense — 2 TDs all season, 20% red-zone rate.",
-    "alternative": "Green Bay (-7.0, TNF home vs 0-2 ATL) — 12.9% of the pool, and the second option is a coin-flip margin, not a safety net"
+    "primary": "Kansas City Chiefs (home vs Miami, -11.5) — LOCKED by Martin 2026-09-22",
+    "case": "Safest straight-up winner on the board: biggest favorite, home, and Miami is the league's weakest offense — 2 TDs all season, 20% red-zone rate. Line deepened from -10.5 to -11.5 and the pool grew to 45.38% — the market and the crowd are both leaning harder into the same answer.",
+    "alternative": "Green Bay (12.67% of pool) — already eliminated: they just lost 35-14 on TNF. The next-best live options are coin-flips, not safety nets."
   },
-  "upsetPath": "KC failure mode = a hot MIA passing day on a 10.5-point leash the market prices as a formality, or a Mahomes issue — he appears on the Week 3 injury report, ⚠ verify status before Sunday. Even if KC fails to cover, a straight-up win is all Survivor needs; the realistic kill scenario is MIA winning outright, which the 2-TD offense makes the least likely result on the board.",
+  "upsetPath": "KC failure mode = a hot MIA passing day or a Mahomes problem. The Mahomes question is now ANSWERED: he's on the official Wk3 report — knee, FULL PARTICIPATION — and Fowler (9/23) has him 'not all the way back… but he's not far off,' looking good in practice. Expected to play at near-level. Even a wobbly Mahomes rarely turns into an outright MIA win at home KC; the realistic kill scenario is still MIA winning straight-up, which the 2-TD offense makes the least likely result on the board.",
   "currentPick": {
     "team": "Kansas City Chiefs",
     "opponent": "Miami Dolphins",
     "when": "Sun 9/27 1:00 pm",
-    "line": -10.5,
+    "line": -11.5,
     "home": true,
     "locked": true
   },
   "poolDistribution": [
-    {
-      "rank": 1,
-      "team": "Kansas City Chiefs",
-      "pct": 41.38,
-      "mine": true
-    },
-    {
-      "rank": 2,
-      "team": "Green Bay Packers",
-      "pct": 12.9
-    },
-    {
-      "rank": 3,
-      "team": "Buffalo Bills",
-      "pct": 10.53
-    },
-    {
-      "rank": 4,
-      "team": "San Francisco 49ers",
-      "pct": 9.12
-    },
-    {
-      "rank": 5,
-      "team": "Detroit Lions",
-      "pct": 7.42
-    },
-    {
-      "rank": 6,
-      "team": "Seattle Seahawks",
-      "pct": 6.19
-    },
-    {
-      "rank": 7,
-      "team": "Carolina Panthers",
-      "pct": 3.26
-    },
-    {
-      "rank": 8,
-      "team": "New York Giants",
-      "pct": 2.79
-    },
-    {
-      "rank": 9,
-      "team": "Philadelphia Eagles",
-      "pct": 1.51
-    },
-    {
-      "rank": 10,
-      "team": "New Orleans Saints",
-      "pct": 1.09
-    },
-    {
-      "rank": null,
-      "team": "6 others below 1%",
-      "pct": null
-    }
+    { "rank": 1, "team": "Kansas City Chiefs", "pct": 45.38, "mine": true },
+    { "rank": 2, "team": "Green Bay Packers", "pct": 12.67 },
+    { "rank": 3, "team": "Detroit Lions", "pct": 8.51 },
+    { "rank": 4, "team": "San Francisco 49ers", "pct": 8.34 },
+    { "rank": 5, "team": "Buffalo Bills", "pct": 8.2 },
+    { "rank": 6, "team": "Seattle Seahawks", "pct": 7.91 },
+    { "rank": 7, "team": "Carolina Panthers", "pct": 2.6 },
+    { "rank": 8, "team": "Philadelphia Eagles", "pct": 1.46 },
+    { "rank": 9, "team": "New Orleans Saints", "pct": 1.12 },
+    { "rank": 10, "team": "Cincinnati Bengals", "pct": 0.98 },
+    { "rank": null, "team": "7 others below 1%", "pct": null }
   ],
-  "rationale": "Wk3: KC locked. The 9/21 leverage worry — a half the pool stacking KC — turned out to be real but survivable: KC holds 41.38%, the largest single pile, with GB (12.9%), BUF (10.53%), SF (9.12%) and DET (7.42%) spread across the rest. Survivor math: you only die if KC loses outright, and Miami's 2-TD, 20%-red-zone offense is the weakest result on the board. Note: SF's 9.12% is another player's pick — reuse bans are per-player, so nobody else burned SF. The one live risk is Mahomes (on the Wk3 injury report, ⚠ verify) — but even a Mahomes wobble rarely turns into an outright MIA win at home KC.",
+  "poolShifts": "9/22 → 9/24: KC 41.38 → 45.38 (+4.0), BUF 10.53 → 8.2 (biggest drop, -2.3), DET 7.42 → 8.51, SEA 6.19 → 7.91, GB 12.9 → 12.67, SF 9.12 → 8.34. The board is consolidating toward KC — leverage worry is now a crowding worry, but the win case is unchanged.",
+  "rationale": "Wk3: KC locked, and the week got better. Thursday's pool: KC at 45.38% — still the largest pile, but the market moved WITH the lock (line deepened -10.5 → -11.5) instead of against it. The one live risk — Mahomes on the Wk3 report — is resolved: knee, full participation, expected to play; Fowler has him close to full health. Note: SF's 8.34% is another player's pick — reuse bans are per-player, so nobody else burned SF. Survivor math unchanged: you only die if KC loses outright, and Miami's 2-TD, 20%-red-zone offense makes that the least likely result on the board. Crowding at 45% means a KC loss would be a massacre — but that's the trade for locking the team with the best chance to win.",
   "verifyBeforeGame": [
-    "Mahomes status — appears on the Wk3 injury report; fetch failed 9/22, ⚠ verify before Sunday",
-    "KC line movement — if it drops hard toward MIA, investigate",
-    "MIA starting QB — 0-2, 2 TDs all season; confirm he's the guy"
+    "Mahomes — RESOLVED 9/24: knee, full participation per official Chiefs report; Fowler 9/23 'not all the way back but not far off'. Recheck the game-day (Sat/Sun) report only",
+    "MIA starting QB — 0-2, 2 TDs all season; confirm he's the guy before Sunday"
   ],
   "ledger": [
-    {
-      "week": 1,
-      "team": "Jacksonville Jaguars",
-      "result": "Survived"
-    },
-    {
-      "week": 2,
-      "team": "San Francisco 49ers",
-      "result": "Survived"
-    }
+    { "week": 1, "team": "Jacksonville Jaguars", "result": "Survived" },
+    { "week": 2, "team": "San Francisco 49ers", "result": "Survived" }
   ]
 }
