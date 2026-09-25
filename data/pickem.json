@@ -8,11 +8,13 @@
   "score": {
     "weekPoints": 0,
     "totalPoints": 13,
-    "rank": "25/28 after Wk2 (Wk3 rank NA — 1 of 16 played)",
-    "record": "13-20 (season, per My Score panel; was 13-18 after Wk2)"
+    "rank": "27/28 (standings 9/25, post-TNF; tied on 13 pts with Nigerian Nightmare and Tatanaka — Jack's Ball Knowledge 12 pts is last)",
+    "record": "13-20 (season, standings 9/25 — Martin-confirmed; the 13-18 'after Wk2' figure was stale)",
+    "groupAvg": 15.4,
+    "groupLeader": 19
   },
-  "asOf": "2026-09-24",
-  "source": "Pickem 2026-09-24 screenshot (live board post-TNF + pool distribution + tiebreakers)",
+  "asOf": "2026-09-25",
+  "source": "Pickem 2026-09-24 screenshot (live board post-TNF + pool distribution + tiebreakers) + FourthandLong standings 2026-09-25 (27/28, 13 pts, 13-20)",
   "linesNote": "Lines moved since the 9/22 save — KC -10.5 → -11.5, NYG -6.0 → -2.5 (drove the flip), LAR 42% → 65% pool. Recheck before each game's 5-minute deadline.",
   "wk2Final": {
     "points": 6,

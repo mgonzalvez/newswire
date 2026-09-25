@@ -4,13 +4,13 @@
     "league": "Yahoo Fantasy · 10-team league",
     "season": 2026,
     "week": 3,
-    "record": "1-1-0 · 240.32 total pts · 5th of 10",
+    "record": "1-1-0 · 240.32 total pts · 5th of 10 (CONFIRMED, standings 9/25)",
     "waiverPriority": 8,
     "bench": "6/6 full",
-    "asOf": "2026-09-24",
-    "source": "Roster 2026-09-24 screenshot (Week 3 tab, Thu 11 pm — Wk3 game slate, DST swapped BAL → KC)",
+    "asOf": "2026-09-25",
+    "source": "Roster 2026-09-24 screenshot (lineup) + Yahoo standings 2026-09-25 (5th, 240.32 PF / 238.24 PA, W-1, 6 moves — Martin-confirmed)",
     "w2Result": "W 110.55 vs Sandra's Fantasy Fumble 97.97 (official)",
-    "w3Opponent": "Runnin with the Bison! — 0-0 going in; week slate opens Sunday 1:00 pm. Yahoo Wk2 widget shows season totals 113.72 vs 97.84 (differs from header total 240.32 — ⚠ verify scoring display)"
+    "w3Opponent": "Runnin with the Bison! — 0-2-0 in the league, 169.54 pts (9th), L-2, 6 moves this week. Standings 9/25 confirm 240.32 season PF — the Wk2 widget oddity (113.72 vs 97.84) is closed; header is official."
   },
   "pendingTransactions": [],
   "starters": [
@@ -135,8 +135,8 @@
       "proj": 12.95,
       "pctStart": 36,
       "pctRos": 100,
-      "status": "questionable",
-      "note": "Q for Wk3 (was OUT, hamstring). Yahoo now lists 36% start — if he activates, he's the instant WR2 over Egbuka."
+      "status": "out",
+      "note": "OUT for Wk3 (hamstring — Martin confirmed 9/25). Egbuka holds WR2 with no decision to make Sunday; Schultz keeps the open target share in Houston."
     },
     {
       "pos": "RB",
