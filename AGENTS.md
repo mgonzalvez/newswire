@@ -145,3 +145,11 @@ Save screenshots to `../fantasy_football_guidance/screenshots/` (`<Type> YYYY-MM
 - Fantasy: team renamed **Martin's MetLife Crisis**. Wk2 official: W 110.55 vs Sandra's Fantasy Fumble 97.97 (earlier 135.08 was a midweek misread). 1-1-0, 240.32 pts, 5th of 10. Wk3 lineup holds (Purdy, Walker-KC, Hubbard, Chase, Egbuka, Schultz, McMillan, Bass, Ravens DST); Collins OUT again, Schultz owns HOU targets. Opponent: Runnin with the Bison! (9th). Waiver priority 7, 0/2 IR used.
 - Pick'em (ATS league): Wk3 card SAVED 9/22 — 14 favorites + 2 dogs (INDY +2.5, DEN +2.5); MIA +10.5 value flag left on the table (market KC ~-8.5/-9 vs pool -10.5). Tiebreakers: PHI 24–20, DEN 24–20; SF most / MIA fewest. Wk2 record: 6 pts, 25/28, 13-18; 9 of 15 played went to the dog.
 - Survivor: alive, 12 remain. KC LOCKED 9/22 — 41.38% of pool (largest pile), GB 12.9%, BUF 10.53%, SF 9.12%, DET 7.42%. MIA = 2 TDs all season, 20% red zone. ⚠ verify Mahomes (Wk3 injury report; fetch failed 9/22).
+
+## Registry & provenance rule (portfolio-wide)
+
+Personal project — completely separate from Apple work.
+
+- `.npmrc` pins `registry=https://registry.npmjs.org`. Never let Apple's internal npm mirror (`npm.apple.com`, `artifacts.apple.com/artifactory/...`) end up in `package-lock.json`; GitHub Actions can't reach it and CI fails with `ENOTFOUND`.
+- Audit before pushing: `../scripts/check-registry.sh` (add `--fix` to normalize).
+- No work credentials, internal hostnames, proprietary assets, or confidential material in this repo.
